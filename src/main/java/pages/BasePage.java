@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -85,5 +86,25 @@ public class BasePage extends BaseClass{
 
     public String getValidationMsg(){
         return get_Text(validateRatingMsg);
+    }
+
+    /**
+     * Day 4
+    */
+    private final By clickBtn = By.xpath("//button[@id='growbutton']");
+
+    private final By getTriggerMsg = By.xpath("//p[@id='growbuttonstatus']");
+
+    public void clickOnButton(){
+        WebElement button = wait_for_visibility(clickBtn);
+        wait.until(ExpectedConditions.attributeContains(button, "class", "grown"));
+
+        if (button.getAttribute("class").contains("grown")) {
+            click_Element(clickBtn);
+        }
+    }
+
+    public String getTriggerMsg(){
+        return get_Text(getTriggerMsg);
     }
 }

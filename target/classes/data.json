@@ -10,5 +10,8 @@
   },
   "day3": {
     "message": "Well done!"
+  },
+  "day4": {
+    "message": "Event Triggered"
   }
 }

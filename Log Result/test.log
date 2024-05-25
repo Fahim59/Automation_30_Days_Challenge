@@ -87,3 +87,29 @@
 2024-05-25 20:51:21.650 [main] INFO  base.BaseClass - Website open successfully
 2024-05-25 20:51:22.013 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
 2024-05-25 20:51:22.019 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 21:21:30.499 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 21:21:54.965 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 21:21:55.368 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 21:21:55.374 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 21:26:19.274 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 21:26:23.363 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 21:26:23.591 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
+2024-05-25 21:26:23.597 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 22:06:31.929 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 22:06:34.502 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 22:06:34.754 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
+2024-05-25 22:06:34.761 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 22:13:59.247 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 22:14:04.512 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 22:14:08.953 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
+2024-05-25 22:14:08.955 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 22:19:17.324 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 22:19:20.800 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 22:19:25.259 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
+2024-05-25 22:19:25.264 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 22:21:18.075 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 22:21:21.099 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 22:22:47.760 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 22:22:50.389 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 22:22:54.851 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
+2024-05-25 22:22:54.857 [main] INFO  base.BaseClass - Browser quit successfully
