@@ -16,7 +16,16 @@ public class BasePage extends BaseClass{
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    private final By confirmMsg = By.xpath("//p[contains(text(),'Congratulations! You must have the proper credenti')]");
+    /**
+        * Day 1
+    */
+    private final By basicAuthOption = By.linkText("Basic Auth");
+
+    private final By confirmMsg = By.xpath("//p[contains(text(),'Congratulations! You must have the proper credential')]");
+
+    public void clickBasicAuth(){
+        click_Element(basicAuthOption);
+    }
 
     public String verifyMessage(){
         return get_Text(confirmMsg);

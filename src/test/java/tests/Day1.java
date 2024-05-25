@@ -1,14 +1,12 @@
 package tests;
 
 import base.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.HasAuthentication;
-import org.openqa.selenium.UsernameAndPassword;
+import org.openqa.selenium.*;
 import org.testng.Assert;
-import pages.*;
-import org.apache.logging.log4j.*;
-import org.json.*;
 import org.testng.annotations.*;
+import pages.*;
+import org.json.*;
+import org.apache.logging.log4j.*;
 
 import java.io.FileReader;
 import java.net.URI;
@@ -21,7 +19,7 @@ public class Day1 extends BaseClass {
     private BasePage basePage;
 
     FileReader data;
-    JSONObject products;
+    JSONObject day1Details;
 
     @BeforeClass
     public void beforeClass() throws Exception {
@@ -30,7 +28,7 @@ public class Day1 extends BaseClass {
             data = new FileReader(file);
 
             JSONTokener tokener = new JSONTokener(data);
-            products = new JSONObject(tokener);
+            day1Details = new JSONObject(tokener);
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -49,21 +47,17 @@ public class Day1 extends BaseClass {
     }
     //-------------------------------------------------------//
 
-    @Test(description = "", priority = 1)
-    public void got_to_home_page() {
-        Predicate<URI> predicatURI = uri -> uri.getHost().contains("the-internet.herokuapp.com");
-        ((HasAuthentication)driver).register(predicatURI, UsernameAndPassword.of("admin", "admin"));
+    @Test(description = "Bypasses the basic browser authentication popup", priority = 1)
+    public void bypass_browser_auth() {
+        Predicate<URI> predicatURI = uri -> uri.getHost().contains(day1Details.getJSONObject("day1").getString("host"));
 
+        ((HasAuthentication)driver).register(predicatURI, UsernameAndPassword.of(day1Details.getJSONObject("day1").getString("username"),
+                day1Details.getJSONObject("day1").getString("password")));
 
+        basePage.clickBasicAuth();
 
-        //logger.info("User go to the NopCommerce Home page");
+        Assert.assertEquals(basePage.verifyMessage(),day1Details.getJSONObject("day1").getString("message"));
 
-        //Open_Website(EndPoint.DAY1.url);
-
-        //driver.get("https://the-internet.herokuapp.com");
-
-        driver.findElement(By.linkText("Basic Auth")).click();
-
-        Assert.assertEquals(basePage.verifyMessage(),"Congratulations! You must have the proper credentials.");
+        logger.info("Bypasses the basic browser authentication popup");
     }
 }

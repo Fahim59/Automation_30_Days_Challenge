@@ -1,7 +1,8 @@
 {
-  "products": {
-    "product1": "Pomelo (Jambura) Kg",
-    "product2": "Shwapno Butter Bun 100gm",
-    "message": "Your order has been placed successfully"
+  "day1": {
+    "host": "the-internet.herokuapp.com",
+    "username": "admin",
+    "password": "admin",
+    "message": "Congratulations! You must have the proper credentials."
   }
 }
