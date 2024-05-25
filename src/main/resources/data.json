@@ -4,5 +4,8 @@
     "username": "admin",
     "password": "admin",
     "message": "Congratulations! You must have the proper credentials."
+  },
+  "day2": {
+    "password": "admin"
   }
 }

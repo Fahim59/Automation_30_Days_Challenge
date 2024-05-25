@@ -1,5 +1,6 @@
 package base;
 
+import constants.EndPoint;
 import factory.DriverFactory;
 import java.io.File;
 import org.apache.commons.io.*;
@@ -30,7 +31,7 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        Open_Website("");
+        Open_Website(EndPoint.DAY2.url);
 
         logger.info("Website open successfully");
     }

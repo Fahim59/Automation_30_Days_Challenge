@@ -14,3 +14,46 @@
 2024-05-25 11:56:19.971 [main] INFO  base.BaseClass - Website open successfully
 2024-05-25 11:56:21.107 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
 2024-05-25 11:56:21.113 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 12:29:57.052 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 12:30:48.438 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 12:30:49.590 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
+2024-05-25 12:30:49.596 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 13:34:42.378 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 13:34:45.624 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 13:34:45.805 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 13:34:45.809 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:34:19.253 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:34:22.773 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:34:22.972 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:34:22.973 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:36:13.624 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:36:17.155 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:36:17.489 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:36:17.497 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:36:58.775 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:37:01.326 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:37:01.527 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:37:01.533 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:38:00.626 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:38:05.814 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:38:06.047 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:38:06.055 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:44:14.792 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:44:18.005 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:44:18.283 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:44:18.296 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:48:12.436 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:48:15.453 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:48:15.684 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:48:15.689 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:53:34.032 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:53:38.714 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:53:39.275 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:54:48.333 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:54:52.893 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:54:53.138 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:54:53.143 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 18:56:23.464 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 18:56:27.719 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 18:56:28.010 [main] INFO  tests.Day2 - Input a value in a disabled field
+2024-05-25 18:56:28.017 [main] INFO  base.BaseClass - Browser quit successfully
