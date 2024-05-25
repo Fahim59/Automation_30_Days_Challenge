@@ -10,3 +10,7 @@
 2024-05-25 11:52:50.523 [main] INFO  base.BaseClass - Website open successfully
 2024-05-25 11:52:52.151 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
 2024-05-25 11:52:52.157 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 11:55:56.394 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 11:56:19.971 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 11:56:21.107 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
+2024-05-25 11:56:21.113 [main] INFO  base.BaseClass - Browser quit successfully
