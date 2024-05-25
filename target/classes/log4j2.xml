@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp">
+    <Appenders>
+        <!--        <File name="fileAppender" fileName="Log Result/test.log">-->
+        <!--            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />-->
+        <!--        </File>-->
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <RollingFile name="RollingFile" fileName="Log Result/test.log"
+                     filePattern="Log Result/logs/app-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <!--            <AppenderRef ref="fileAppender" />-->
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="RollingFile" />
+        </Root>
+
+        <Logger name="Test Result Log Result" level="debug">
+            <!--            <AppenderRef ref="fileAppender" />-->
+            <AppenderRef ref="RollingFile" />
+        </Logger>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel= "false" thread-count="2">
+    <listeners>
+        <listener class-name="utils.Listeners"/>
+        <listener class-name="retry_analyzer.Transformer"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Selenium 50 Days Challenge">
+        <classes>
+            <class name="tests.Day1"/>
+        </classes>
+    </test>
+</suite>
