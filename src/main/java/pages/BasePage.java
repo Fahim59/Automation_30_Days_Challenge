@@ -4,6 +4,7 @@ import base.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -11,14 +12,16 @@ import java.time.Duration;
 public class BasePage extends BaseClass{
     private final WebDriver driver;
     private final WebDriverWait wait;
+    private final JavascriptExecutor js;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        js = (JavascriptExecutor) driver;
     }
 
     /**
-        * Day 1
+     * Day 1
     */
     private final By basicAuthOption = By.linkText("Basic Auth");
     private final By confirmMsg = By.xpath("//p[contains(text(),'Congratulations! You must have the proper credential')]");
@@ -46,5 +49,41 @@ public class BasePage extends BaseClass{
         js.executeScript("document.getElementById('passnew').removeAttribute('disabled')");
 
         write_Send_Keys(passNewField, pass);
+    }
+
+    /**
+     * Day 3
+    */
+    private final By ratingField = By.cssSelector(".star-rating");
+
+    private final By ratingTextField = By.xpath("//input[@id='txt_rating']");
+
+    private final By checkRatingBtn = By.xpath("//button[@id='check_rating']");
+
+    private final By validateRatingMsg = By.xpath("//span[@id='validate_rating']");
+
+    public String getContentOfRatingField(){
+        WebElement element = wait_for_presence(ratingField);
+
+        String script = "return window.getComputedStyle(arguments[0], '::after').getPropertyValue('content');";
+        String pseudoContent = (String) js.executeScript(script, element);
+
+        if (pseudoContent != null && pseudoContent.length() > 1) {
+            pseudoContent = pseudoContent.substring(1, pseudoContent.length() - 1);
+        }
+
+        return pseudoContent;
+    }
+
+    public void enterRating(String rating){
+        write_Send_Keys(ratingTextField, rating);
+    }
+
+    public void clickRatingButton(){
+        click_Element(checkRatingBtn);
+    }
+
+    public String getValidationMsg(){
+        return get_Text(validateRatingMsg);
     }
 }

@@ -57,3 +57,33 @@
 2024-05-25 18:56:27.719 [main] INFO  base.BaseClass - Website open successfully
 2024-05-25 18:56:28.010 [main] INFO  tests.Day2 - Input a value in a disabled field
 2024-05-25 18:56:28.017 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:12:59.445 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:13:00.457 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:13:14.482 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:13:31.300 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:13:31.485 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:13:31.494 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:23:20.018 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:23:55.954 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:23:56.195 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:23:56.195 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:28:39.970 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:28:55.309 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:28:55.561 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:28:55.569 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:33:03.562 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:33:14.968 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:33:15.232 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:33:15.232 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:46:41.210 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:47:03.754 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:47:04.114 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:47:04.119 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:50:09.589 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:50:19.405 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:50:19.808 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:50:19.813 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-25 20:51:10.917 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-25 20:51:21.650 [main] INFO  base.BaseClass - Website open successfully
+2024-05-25 20:51:22.013 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
+2024-05-25 20:51:22.019 [main] INFO  base.BaseClass - Browser quit successfully
