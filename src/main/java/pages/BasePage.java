@@ -135,4 +135,30 @@ public class BasePage extends BaseClass{
     public String getSuccessMsg(){
         return get_Text(successMsg);
     }
+
+    /**
+     * Day 6
+    */
+    private final By startBtn = By.xpath("//button[@id='startButton']");
+
+    private final By stopBtn = By.xpath("//button[@id='stopButton']");
+
+    public void clickStartBtn(){
+        click_Element(startBtn);
+    }
+
+    public void clickStopBtn(int value){
+        String script = "return document.querySelector('.progress-bar').style.width;";
+
+        while (true) {
+            String progressValue = (String) js.executeScript(script);
+
+            int progress = Integer.parseInt(progressValue.replace("%", ""));
+
+            if (progress == value) {
+                click_Element(stopBtn);
+                break;
+            }
+        }
+    }
 }

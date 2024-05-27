@@ -22,3 +22,44 @@
 2024-05-27 11:22:36.841 [main] INFO  base.BaseClass - Website open successfully
 2024-05-27 11:22:37.561 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
 2024-05-27 11:22:37.568 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 11:50:00.459 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 11:50:04.006 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 11:50:04.177 [main] INFO  tests.Day6 - Click start button and wait for the progressbar to reach 65% and click stop button
+2024-05-27 11:50:04.181 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:07:28.812 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:07:32.034 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:08:03.722 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:08:49.195 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:08:51.557 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:09:17.584 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:10:25.891 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:10:29.118 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:13:21.078 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:13:26.587 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:13:27.349 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:14:21.588 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:14:25.086 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:14:26.061 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:17:01.543 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:17:04.250 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:17:04.989 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:58:03.941 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:58:06.931 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:58:07.202 [main] INFO  tests.Day6 - Click start button and wait for the progressbar to reach 65% and click stop button
+2024-05-27 12:58:07.208 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 12:58:33.497 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 12:58:35.719 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 12:58:55.876 [main] INFO  tests.Day6 - Click start button and wait for the progressbar to reach 65% and click stop button
+2024-05-27 12:58:55.877 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 13:02:22.376 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 13:02:24.738 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 13:02:44.346 [main] INFO  tests.Day6 - Click start button and wait for the progressbar to reach 65% and click stop button
+2024-05-27 13:02:44.352 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 13:03:11.805 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 13:03:14.037 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 13:03:21.433 [main] INFO  tests.Day6 - Click start button and wait for the progressbar to reach 65% and click stop button
+2024-05-27 13:03:21.437 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 13:04:28.932 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 13:04:31.088 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 13:04:40.025 [main] INFO  tests.Day6 - Click start button and wait for the progressbar to reach 75% and click stop button
+2024-05-27 13:04:40.033 [main] INFO  base.BaseClass - Browser quit successfully
