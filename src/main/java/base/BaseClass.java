@@ -31,7 +31,7 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        Open_Website(EndPoint.DAY4.url);
+        Open_Website(EndPoint.DAY5.url);
 
         logger.info("Website open successfully");
     }
@@ -60,6 +60,9 @@ public class BaseClass {
     }
     public WebElement wait_for_presence(By locator) {
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
+    public List<WebElement> wait_for_presence_list(By locator) {
+        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
     }
 
     public void click_Element(By locator) {

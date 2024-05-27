@@ -1,115 +1,24 @@
-2024-05-25 11:32:37.073 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 11:32:50.282 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 11:32:51.472 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
-2024-05-25 11:32:51.478 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 11:44:59.677 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 11:45:18.230 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 11:45:20.161 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
-2024-05-25 11:45:20.167 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 11:52:12.463 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 11:52:50.523 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 11:52:52.151 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
-2024-05-25 11:52:52.157 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 11:55:56.394 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 11:56:19.971 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 11:56:21.107 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
-2024-05-25 11:56:21.113 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 12:29:57.052 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 12:30:48.438 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 12:30:49.590 [main] INFO  tests.Day1 - Bypasses the basic browser authentication popup
-2024-05-25 12:30:49.596 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 13:34:42.378 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 13:34:45.624 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 13:34:45.805 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 13:34:45.809 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:34:19.253 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:34:22.773 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:34:22.972 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:34:22.973 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:36:13.624 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:36:17.155 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:36:17.489 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:36:17.497 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:36:58.775 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:37:01.326 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:37:01.527 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:37:01.533 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:38:00.626 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:38:05.814 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:38:06.047 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:38:06.055 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:44:14.792 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:44:18.005 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:44:18.283 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:44:18.296 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:48:12.436 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:48:15.453 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:48:15.684 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:48:15.689 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:53:34.032 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:53:38.714 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:53:39.275 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:54:48.333 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:54:52.893 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:54:53.138 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:54:53.143 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 18:56:23.464 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 18:56:27.719 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 18:56:28.010 [main] INFO  tests.Day2 - Input a value in a disabled field
-2024-05-25 18:56:28.017 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:12:59.445 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:13:00.457 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:13:14.482 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:13:31.300 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:13:31.485 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:13:31.494 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:23:20.018 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:23:55.954 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:23:56.195 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:23:56.195 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:28:39.970 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:28:55.309 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:28:55.561 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:28:55.569 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:33:03.562 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:33:14.968 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:33:15.232 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:33:15.232 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:46:41.210 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:47:03.754 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:47:04.114 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:47:04.119 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:50:09.589 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:50:19.405 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:50:19.808 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:50:19.813 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 20:51:10.917 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 20:51:21.650 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 20:51:22.013 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 20:51:22.019 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 21:21:30.499 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 21:21:54.965 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 21:21:55.368 [main] INFO  tests.Day3 - Read the * rating of the book, enter it in text box and click check rating button
-2024-05-25 21:21:55.374 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 21:26:19.274 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 21:26:23.363 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 21:26:23.591 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
-2024-05-25 21:26:23.597 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 22:06:31.929 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 22:06:34.502 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 22:06:34.754 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
-2024-05-25 22:06:34.761 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 22:13:59.247 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 22:14:04.512 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 22:14:08.953 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
-2024-05-25 22:14:08.955 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 22:19:17.324 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 22:19:20.800 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 22:19:25.259 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
-2024-05-25 22:19:25.264 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-25 22:21:18.075 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 22:21:21.099 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 22:22:47.760 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-25 22:22:50.389 [main] INFO  base.BaseClass - Website open successfully
-2024-05-25 22:22:54.851 [main] INFO  tests.Day4 - Click on the growing button and once clicked see 'Event Triggered' message.
-2024-05-25 22:22:54.857 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 10:35:14.712 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 10:35:17.980 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 10:35:18.175 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-05-27 10:35:18.182 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 10:35:43.906 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 10:35:45.081 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 10:35:45.305 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-05-27 10:35:45.311 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 10:36:00.763 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 10:36:01.908 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 10:36:02.120 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-05-27 10:36:02.128 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 11:15:33.941 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 11:15:37.016 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 11:15:37.573 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-05-27 11:15:37.587 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 11:20:33.227 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 11:20:34.708 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 11:20:35.638 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-05-27 11:20:35.640 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-27 11:22:34.493 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-27 11:22:36.841 [main] INFO  base.BaseClass - Website open successfully
+2024-05-27 11:22:37.561 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-05-27 11:22:37.568 [main] INFO  base.BaseClass - Browser quit successfully

@@ -1,14 +1,13 @@
 package pages;
 
 import base.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 public class BasePage extends BaseClass{
     private final WebDriver driver;
@@ -106,5 +105,34 @@ public class BasePage extends BaseClass{
 
     public String getTriggerMsg(){
         return get_Text(getTriggerMsg);
+    }
+
+    /**
+     * Day 5
+    */
+    private final By inputField = By.xpath("(//input[@type='number'])");
+
+    private final By successMsg = By.xpath("//small[@class='info success']");
+
+    public int getInputFieldSize() {
+        List<WebElement> elements = wait_for_presence_list(inputField);
+        return elements.size();
+    }
+
+    public void enterCode(){
+        Actions actions = new Actions(driver);
+
+        Runnable pressKeyUpNineTimesAndTab = () -> {
+            for (int i = 0; i < 9; i++) {
+                actions.sendKeys(Keys.ARROW_UP).perform();
+            }
+            actions.sendKeys(Keys.TAB).perform();
+        };
+
+        pressKeyUpNineTimesAndTab.run();
+    }
+
+    public String getSuccessMsg(){
+        return get_Text(successMsg);
     }
 }
