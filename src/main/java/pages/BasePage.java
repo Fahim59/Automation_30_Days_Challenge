@@ -168,7 +168,6 @@ public class BasePage extends BaseClass{
     /**
      * Day 7
     */
-
     private final By textField = By.xpath("//p[@id='msg']");
     private final By shareBtn = By.xpath("//span[normalize-space()='Share']");
 
@@ -250,5 +249,32 @@ public class BasePage extends BaseClass{
 
             default: throw new IllegalStateException("INVALID SOCIAL MEDIA OPTION: " +option);
         }
+    }
+
+    /**
+     * Day 8
+    */
+    private final By checkOrderBtn = By.xpath("(//button[normalize-space()='Check Order'])");
+
+    public void dragAndDrop(String [] expectedOrder){
+        for (int i = 0; i < expectedOrder.length; i++) {
+            WebElement sourceElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='person-name' and contains(text(),'"+expectedOrder[i]+"')]")));
+            WebElement targetElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='number' and contains(text(),'"+(i+1)+"')]")));
+
+            actions.dragAndDrop(sourceElement, targetElement).perform();
+        }
+    }
+
+    public void verifyOrder(String [] expectedOrder){
+        for (int i = 0; i < expectedOrder.length; i++) {
+            WebElement item = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@id='draggable-list']/li[" +(i+1)+ "]//p[@class='person-name']")));
+            String actualName = item.getText();
+
+            Assert.assertTrue(actualName.contains(expectedOrder[i]), "Error: Person at position " +(i+1)+ " is " +actualName+ " instead of " +expectedOrder[i]);
+        }
+    }
+
+    public void clickCheckOrderBtn(){
+        click_Element(checkOrderBtn);
     }
 }

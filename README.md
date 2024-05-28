@@ -11,3 +11,5 @@ Day5: Enter valid code by keyboard keys by pressing the only key button and asse
 Day6: Create an automation script that clicks the start button, waits for the progress bar to reach 75%, and then the test should click stop. The less the difference between the value of the stopped progress bar and 75% the better your result.
 
 Day7: Right-clicks to open a context menu, navigates to the 'Share menu', clicks all social media links in the submenu, and verifies the confirmation message for each link.
+
+Day8: Drag and Drop Items into their corresponding spots.

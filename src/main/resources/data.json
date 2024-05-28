@@ -25,5 +25,9 @@
     "instagram": "Menu item Instagram clicked",
     "dribble": "Menu item Dribble clicked",
     "telegram": "Menu item Telegram clicked"
+  },
+  "day8": {
+    "expectedOrder": ["Jeff Bezos", "Bill Gates", "Warren Buffett", "Bernard Arnault","Carlos Slim Helu",
+      "Amancio Ortega", "Larry Ellison", "Mark Zuckerberg", "Michael Bloomberg"]
   }
 }
