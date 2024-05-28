@@ -7,7 +7,8 @@ public enum EndPoint {
     DAY3("/advanced.html"),
     DAY4("/styled/challenges/growing-clickable.html"),
     DAY5("/apps/verify-account/"),
-    DAY6("/progressbar");
+    DAY6("/progressbar"),
+    DAY7("/apps/context-menu/");
 
     public final String url;
     EndPoint(String url) {

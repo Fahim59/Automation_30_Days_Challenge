@@ -19,5 +19,11 @@
   },
   "day6": {
     "value": 75
+  },
+  "day7": {
+    "twitter": "Menu item Twitter clicked",
+    "instagram": "Menu item Instagram clicked",
+    "dribble": "Menu item Dribble clicked",
+    "telegram": "Menu item Telegram clicked"
   }
 }

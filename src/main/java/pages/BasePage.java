@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
@@ -13,11 +14,13 @@ public class BasePage extends BaseClass{
     private final WebDriver driver;
     private final WebDriverWait wait;
     private final JavascriptExecutor js;
+    private final Actions actions;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         js = (JavascriptExecutor) driver;
+        actions = new Actions(driver);
     }
 
     /**
@@ -159,6 +162,93 @@ public class BasePage extends BaseClass{
                 click_Element(stopBtn);
                 break;
             }
+        }
+    }
+
+    /**
+     * Day 7
+    */
+
+    private final By textField = By.xpath("//p[@id='msg']");
+    private final By shareBtn = By.xpath("//span[normalize-space()='Share']");
+
+    private final By twitterBtn = By.xpath("//span[normalize-space()='Twitter']");
+    private final By twitterMsg = By.xpath("//*[text()='Menu item Twitter clicked']");
+
+    private final By instagramBtn = By.xpath("//span[normalize-space()='Instagram']");
+    private final By instagramMsg = By.xpath("//*[text()='Menu item Instagram clicked']");
+
+    private final By dribbleBtn = By.xpath("//span[normalize-space()='Dribble']");
+    private final By dribbleMsg = By.xpath("//*[text()='Menu item Dribble clicked']");
+
+    private final By telegramBtn = By.xpath("//span[normalize-space()='Telegram']");
+    private final By telegramMsg = By.xpath("//*[text()='Menu item Telegram clicked']");
+
+    public BasePage clickTextField(){
+        WebElement element = wait_for_visibility(textField);
+        actions.contextClick(element).perform();
+
+        return this;
+    }
+    public void clickShareBtn(){
+        WebElement element = wait_for_visibility(shareBtn);
+        actions.moveToElement(element).perform();
+
+    }
+
+    public void clickTwitterBtn(){
+        click_Element(twitterBtn);
+    }
+    public String getTwitterMsg(){
+        return get_Text(twitterMsg);
+    }
+
+    public void clickInstagramBtn(){
+        click_Element(instagramBtn);
+    }
+    public String getInstagramMsg(){
+        return get_Text(instagramMsg);
+    }
+
+    public void clickDribbleBtn(){
+        click_Element(dribbleBtn);
+    }
+    public String getDribbleMsg(){
+        return get_Text(dribbleMsg);
+    }
+
+    public void clickTelegramBtn(){
+        click_Element(telegramBtn);
+    }
+    public String getTelegramMsg(){
+        return get_Text(telegramMsg);
+    }
+
+    public void openMenu(String option, String actualMsg){
+        clickTextField().clickShareBtn();
+
+        switch (option) {
+            case "twitter":
+                clickTwitterBtn();
+                Assert.assertEquals(actualMsg, getTwitterMsg());
+                break;
+
+            case "instagram":
+                clickInstagramBtn();
+                Assert.assertEquals(actualMsg, getInstagramMsg());
+                break;
+
+            case "dribble":
+                clickDribbleBtn();
+                Assert.assertEquals(actualMsg, getDribbleMsg());
+                break;
+
+            case "telegram":
+                clickTelegramBtn();
+                Assert.assertEquals(actualMsg, getTelegramMsg());
+                break;
+
+            default: throw new IllegalStateException("INVALID SOCIAL MEDIA OPTION: " +option);
         }
     }
 }
