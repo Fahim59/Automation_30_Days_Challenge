@@ -13,3 +13,5 @@ Day6: Create an automation script that clicks the start button, waits for the pr
 Day7: Right-clicks to open a context menu, navigates to the 'Share menu', clicks all social media links in the submenu, and verifies the confirmation message for each link.
 
 Day8: Drag and Drop Items into their corresponding spots.
+
+Day9: Using assertion compare the value from the clipboard and the value of the input field.

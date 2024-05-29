@@ -1,163 +1,73 @@
-2024-05-28 10:57:29.820 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 10:57:31.060 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 10:57:31.306 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 10:57:31.314 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 14:52:29.193 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 14:52:32.485 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 14:52:32.894 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 14:54:09.857 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 14:54:11.123 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 14:54:11.346 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 14:54:11.359 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 14:55:38.127 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 14:55:39.759 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 14:55:39.952 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 14:55:39.957 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 14:58:10.028 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 14:58:11.314 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 14:58:11.527 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 14:58:11.534 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 15:01:26.826 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 15:01:28.004 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 15:01:28.433 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 15:03:27.471 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 15:03:28.741 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 15:03:29.065 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 15:03:29.074 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 17:51:28.848 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 17:51:30.208 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 17:51:30.426 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 17:51:30.430 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 17:52:10.940 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 17:52:11.900 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 17:52:12.100 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 17:52:12.106 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 17:54:48.724 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 17:54:50.937 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 17:54:51.077 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 17:54:51.082 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 17:59:33.944 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 17:59:35.968 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 17:59:36.138 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 17:59:36.143 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 18:00:24.288 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 18:00:25.220 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 18:00:25.438 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 18:00:25.447 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 18:04:53.695 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 18:04:55.056 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 18:04:55.292 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 18:04:55.298 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 19:25:43.976 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 19:25:45.969 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 19:25:49.304 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 19:25:49.310 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 19:32:32.627 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 19:32:33.886 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 19:32:37.111 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 19:32:37.117 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 19:40:19.339 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 19:40:21.229 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 19:40:21.587 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 19:43:21.052 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 19:43:22.376 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 19:43:22.794 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 19:46:45.635 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 19:46:47.234 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 19:46:50.563 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 19:46:50.563 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 20:01:14.456 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 20:01:16.068 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 20:01:19.207 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 20:01:19.212 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 20:26:52.164 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 20:26:53.958 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 20:26:57.204 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 20:26:57.207 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 20:27:16.198 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 20:27:17.670 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 20:27:20.822 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 20:27:20.827 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:06:58.396 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:07:00.011 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:07:03.131 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:07:03.134 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:07:25.236 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:07:26.560 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:07:29.643 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:07:29.647 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:16:05.334 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:16:07.104 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:16:44.038 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:20:08.327 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:20:10.098 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:20:13.642 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:20:13.649 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:23:14.783 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:23:16.321 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:23:52.367 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:24:09.661 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:24:10.999 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:24:16.871 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:27:30.516 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:27:32.177 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:27:35.710 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:27:35.730 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:27:50.283 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:27:51.736 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:27:57.541 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:29:30.926 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:29:32.654 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:29:38.631 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:30:10.250 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:30:11.801 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:30:17.707 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:31:07.960 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:31:09.532 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:31:15.800 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:31:15.804 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:31:36.256 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:31:37.920 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:31:41.258 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:31:41.263 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:32:16.722 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:32:18.449 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:32:24.558 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:32:31.835 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:32:33.010 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:32:39.258 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:32:39.261 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:32:56.677 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:32:58.138 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:33:01.499 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:33:01.505 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:36:50.574 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:36:52.090 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:36:55.073 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:36:55.085 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:41:52.963 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:41:54.496 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:41:57.462 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:42:11.218 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:42:12.630 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:42:15.340 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:42:41.831 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:42:43.301 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:42:46.242 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:42:46.247 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:42:54.259 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:42:55.752 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:42:58.663 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:42:58.669 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:43:46.284 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:43:47.659 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:43:50.596 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:43:50.609 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:44:46.658 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:44:48.209 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:44:51.107 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:44:51.113 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-28 21:45:54.538 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-28 21:45:58.666 [main] INFO  base.BaseClass - Website open successfully
-2024-05-28 21:46:01.832 [main] INFO  tests.Day8 - Drag and Drop Items into their corresponding spots
-2024-05-28 21:46:01.837 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:07:07.638 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:07:10.401 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:07:10.779 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:09:44.340 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:09:46.563 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:09:47.216 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:10:01.324 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:10:03.641 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:10:04.284 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:11:01.045 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:11:03.273 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:11:03.510 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:11:03.519 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:11:15.984 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:11:18.170 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:11:18.392 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:11:18.392 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:11:30.076 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:11:32.383 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:11:32.678 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:11:32.684 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:12:05.411 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:12:07.635 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:12:08.291 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:13:00.606 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:13:02.889 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:13:03.521 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:13:44.105 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:13:47.180 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:13:47.474 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:13:47.478 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:14:16.740 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:14:18.939 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:14:19.356 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:14:19.366 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:20:32.797 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:20:35.088 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:20:35.518 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:20:35.525 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:25:12.387 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:25:14.618 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:25:15.037 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
+2024-05-29 21:25:15.037 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:26:06.009 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:26:08.318 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:26:08.993 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:26:36.351 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:26:38.075 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:26:38.796 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:27:24.661 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:27:26.859 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:27:27.518 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:32:28.997 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:32:31.252 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:32:31.875 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:33:42.604 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:33:44.821 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:33:45.459 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:34:18.452 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:34:20.734 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:34:21.309 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:34:39.826 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:34:42.113 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:34:42.794 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:36:00.612 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:36:03.563 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:36:04.214 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:36:58.045 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:37:00.315 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:37:00.900 [main] INFO  base.BaseClass - Browser quit successfully
+2024-05-29 21:38:29.913 [main] INFO  base.BaseClass - Browser launched successfully
+2024-05-29 21:38:32.069 [main] INFO  base.BaseClass - Website open successfully
+2024-05-29 21:38:32.777 [main] INFO  base.BaseClass - Browser quit successfully

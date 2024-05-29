@@ -7,6 +7,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -276,5 +281,36 @@ public class BasePage extends BaseClass{
 
     public void clickCheckOrderBtn(){
         click_Element(checkOrderBtn);
+    }
+
+    /**
+     * Day 9
+    */
+    public SearchContext shadowRoot(){
+        WebElement shadowHost = driver.findElement(By.tagName("guid-generator"));
+        return (SearchContext) js.executeScript("return arguments[0].shadowRoot", shadowHost);
+    }
+
+    public void clickGuidGenerator(){
+        WebElement guidGenerator = shadowRoot().findElement(By.id("buttonGenerate"));
+        guidGenerator.click();
+
+        System.out.println("GUID Clicked");
+    }
+
+    public void clickCopyBtn(){
+        WebElement copyBtn = shadowRoot().findElement(By.id("buttonCopy"));
+        copyBtn.click();
+
+        System.out.println("Copy Clicked");
+    }
+
+    public String getInputFieldValue(){
+        WebElement inputField = shadowRoot().findElement(By.id("editField"));
+        return (String) js.executeScript("return arguments[0].value;", inputField);
+    }
+
+    public String getClipBoardValue() throws IOException, UnsupportedFlavorException {
+        return (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
     }
 }
