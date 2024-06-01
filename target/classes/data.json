@@ -29,5 +29,8 @@
   "day8": {
     "expectedOrder": ["Jeff Bezos", "Bill Gates", "Warren Buffett", "Bernard Arnault","Carlos Slim Helu",
       "Amancio Ortega", "Larry Ellison", "Mark Zuckerberg", "Michael Bloomberg"]
+  },
+  "day11": {
+    "tag": "<script>alert()</script>"
   }
 }
