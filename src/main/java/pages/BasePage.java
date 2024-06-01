@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 
 import java.awt.*;
+import java.security.Key;
 import java.util.*;
 import java.awt.datatransfer.*;
 import java.io.File;
@@ -366,5 +367,33 @@ public class BasePage extends BaseClass{
             String text = pdfStripper.getText(document);
             return text.contains(searchText);
         }
+    }
+
+    /**
+     * Day 11
+    */
+    private final By tagCount = By.cssSelector("div[class='details'] p span");
+
+    private final By removeBtn = By.cssSelector("div[class='details'] button");
+
+    private final By tagField = By.cssSelector("input[type='text']");
+
+    private final By tagText = By.cssSelector("li:nth-child(1)");
+
+    public String getTagCount(){
+        return get_Text(tagCount);
+    }
+
+    public void clickRemoveBtn() {
+        click_Element(removeBtn);
+    }
+
+    public void enterTags(String tag){
+        WebElement element = wait_for_visibility(tagField);
+        element.sendKeys(tag + Keys.ENTER);
+    }
+
+    public String getTagText(){
+        return get_Text(tagText);
     }
 }

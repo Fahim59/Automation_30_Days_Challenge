@@ -87,3 +87,31 @@
 2024-06-01 20:11:25.117 [main] INFO  base.BaseClass - Website open successfully
 2024-06-01 20:11:39.404 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
 2024-06-01 20:11:39.412 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 21:17:27.383 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 21:17:28.198 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 21:17:28.483 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 21:17:28.488 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 21:52:26.546 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 21:52:29.477 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 21:52:30.491 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 21:52:30.498 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 21:56:18.097 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 21:56:18.771 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 21:56:19.990 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 21:56:19.995 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 21:59:42.378 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 21:59:43.104 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 21:59:44.607 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 21:59:44.613 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 22:03:22.856 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 22:03:23.599 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 22:03:25.105 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 22:03:25.111 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 22:20:56.015 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 22:20:56.883 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 22:20:58.372 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 22:20:58.380 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 22:40:25.616 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 22:40:26.613 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 22:40:27.864 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 22:40:27.877 [main] INFO  base.BaseClass - Browser quit successfully

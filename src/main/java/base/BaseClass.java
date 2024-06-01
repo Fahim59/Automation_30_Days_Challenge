@@ -31,7 +31,7 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        Open_Website(EndPoint.DAY10.url);
+        Open_Website(EndPoint.DAY11.url);
 
         logger.info("Website open successfully");
     }

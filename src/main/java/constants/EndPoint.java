@@ -12,6 +12,7 @@ public enum EndPoint {
     DAY8("/apps/sortable-list/"),
     DAY9("/shadowdom"),
     DAY10("/FileDownload.html"),
+    DAY11("/apps/tags-input-box/")
     ;
 
     public final String url;

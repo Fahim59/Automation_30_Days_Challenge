@@ -17,3 +17,5 @@ Day8: Drag and Drop Items into their corresponding spots.
 Day9: Using assertion compare the value from the clipboard and the value of the input field.
 
 Day10: Download a pdf file and verify a text in that file.
+
+Day11: Add and Remove Tags then assert tag's presence and count
