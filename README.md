@@ -15,3 +15,5 @@ Day7: Right-clicks to open a context menu, navigates to the 'Share menu', clicks
 Day8: Drag and Drop Items into their corresponding spots.
 
 Day9: Using assertion compare the value from the clipboard and the value of the input field.
+
+Day10: Download a pdf file and verify a text in that file.

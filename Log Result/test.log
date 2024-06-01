@@ -1,73 +1,89 @@
-2024-05-29 21:07:07.638 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:07:10.401 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:07:10.779 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:09:44.340 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:09:46.563 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:09:47.216 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:10:01.324 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:10:03.641 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:10:04.284 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:11:01.045 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:11:03.273 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:11:03.510 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:11:03.519 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:11:15.984 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:11:18.170 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:11:18.392 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:11:18.392 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:11:30.076 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:11:32.383 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:11:32.678 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:11:32.684 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:12:05.411 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:12:07.635 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:12:08.291 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:13:00.606 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:13:02.889 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:13:03.521 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:13:44.105 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:13:47.180 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:13:47.474 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:13:47.478 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:14:16.740 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:14:18.939 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:14:19.356 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:14:19.366 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:20:32.797 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:20:35.088 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:20:35.518 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:20:35.525 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:25:12.387 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:25:14.618 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:25:15.037 [main] INFO  tests.Day9 - Using assertion compare the value from the clipboard and the value of the input field
-2024-05-29 21:25:15.037 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:26:06.009 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:26:08.318 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:26:08.993 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:26:36.351 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:26:38.075 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:26:38.796 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:27:24.661 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:27:26.859 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:27:27.518 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:32:28.997 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:32:31.252 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:32:31.875 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:33:42.604 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:33:44.821 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:33:45.459 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:34:18.452 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:34:20.734 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:34:21.309 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:34:39.826 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:34:42.113 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:34:42.794 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:36:00.612 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:36:03.563 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:36:04.214 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:36:58.045 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:37:00.315 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:37:00.900 [main] INFO  base.BaseClass - Browser quit successfully
-2024-05-29 21:38:29.913 [main] INFO  base.BaseClass - Browser launched successfully
-2024-05-29 21:38:32.069 [main] INFO  base.BaseClass - Website open successfully
-2024-05-29 21:38:32.777 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:10:13.404 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:10:17.798 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:10:21.227 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:10:21.229 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:21:38.380 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:21:41.442 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:21:44.967 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:21:44.975 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:22:58.612 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:23:01.791 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:23:05.635 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:23:05.643 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:24:09.548 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:24:12.371 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:24:15.720 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:24:15.727 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:26:04.780 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:26:09.649 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:26:12.222 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:26:12.229 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:27:30.808 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:27:33.110 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:27:36.196 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:27:36.203 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:29:00.306 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:29:03.632 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:29:06.417 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:29:06.425 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:30:21.996 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:30:26.502 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:30:29.487 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:30:29.493 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 17:31:23.850 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 17:31:27.923 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 17:31:30.464 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 17:31:30.471 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 18:50:08.711 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 18:50:11.697 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:01:41.369 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:01:46.385 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:03:00.785 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:03:05.111 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:07:16.239 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:07:32.882 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:08:06.271 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:08:09.670 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:13:12.848 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 19:13:12.855 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:22:19.250 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:22:23.462 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:27:17.510 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:27:22.992 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:27:35.827 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 19:27:35.831 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:28:37.204 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:28:42.382 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:29:03.384 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:30:07.378 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:30:12.705 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:30:16.493 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 19:30:16.506 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:31:04.723 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:31:08.906 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:31:21.230 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 19:31:21.243 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:35:13.716 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:35:18.709 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:35:22.430 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 19:35:22.437 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:48:16.024 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:48:20.030 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 19:48:24.672 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 19:48:24.672 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 19:59:29.928 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 19:59:35.451 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:00:37.183 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 20:00:41.016 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:01:25.566 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 20:01:32.066 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:02:06.789 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 20:02:11.891 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:03:40.818 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 20:03:44.200 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:03:58.249 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 20:04:03.133 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:11:19.488 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 20:11:25.117 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 20:11:39.404 [main] INFO  tests.Day10 - Download a pdf file and verify 'Get Tickets' text in that file
+2024-06-01 20:11:39.412 [main] INFO  base.BaseClass - Browser quit successfully

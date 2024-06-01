@@ -10,7 +10,9 @@ public enum EndPoint {
     DAY6("/progressbar"),
     DAY7("/apps/context-menu/"),
     DAY8("/apps/sortable-list/"),
-    DAY9("/shadowdom");
+    DAY9("/shadowdom"),
+    DAY10("/FileDownload.html"),
+    ;
 
     public final String url;
     EndPoint(String url) {

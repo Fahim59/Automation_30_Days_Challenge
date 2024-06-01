@@ -3,9 +3,15 @@ package factory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import utils.ConfigLoader;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DriverFactory {
     public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
@@ -23,8 +29,19 @@ public class DriverFactory {
 
         switch (browser) {
             case "chrome":
+                ChromeOptions options = new ChromeOptions();
+                Map<String, Object> prefs = new HashMap<>();
+
+                options.setExperimentalOption("useAutomationExtension", false);
+                options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+
+                prefs.put("download.default_directory", new ConfigLoader().initializeProperty().getProperty("downloadFilePath"));
+                prefs.put("profile.default_content_settings.popups", 0);
+
+                options.setExperimentalOption("prefs", prefs);
+
                 WebDriverManager.chromedriver().setup();
-                tlDriver.set(new ChromeDriver());
+                tlDriver.set(new ChromeDriver(options));
                 break;
 
             case "firefox":

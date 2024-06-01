@@ -1,16 +1,18 @@
 package pages;
 
 import base.BaseClass;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
+
 import org.testng.Assert;
 
 import java.awt.*;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.UnsupportedFlavorException;
+import java.util.*;
+import java.awt.datatransfer.*;
+import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
@@ -312,5 +314,57 @@ public class BasePage extends BaseClass{
 
     public String getClipBoardValue() throws IOException, UnsupportedFlavorException {
         return (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+    }
+
+    /**
+     * Day 10
+    */
+    private final By downloadBtn = By.xpath("//a[@type='button']");
+
+    public void clickDownloadBtn() throws InterruptedException {
+        Scroll_Down();
+        click_Element(downloadBtn);
+    }
+
+    public File getLatestFileFromDir(String dirPath) {
+        File dir = new File(dirPath);
+        File[] files = dir.listFiles();
+        if (files != null && files.length > 0) {
+            Arrays.sort(files, Comparator.comparingLong(File::lastModified).reversed());
+            return files[0];
+        }
+        return null;
+    }
+
+    public void openFileInNewTab(WebDriver driver, File file) {
+        try {
+            String fileUrl = "file:///" + file.getAbsolutePath().replace("\\", "/");
+            System.out.println("Opening file URL: " + fileUrl);
+
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.open();");
+
+            String currentHandle = driver.getWindowHandle();
+            for (String handle : driver.getWindowHandles()) {
+                if (!handle.equals(currentHandle)) {
+                    driver.switchTo().window(handle);
+                    break;
+                }
+            }
+
+            driver.get(fileUrl);
+        }
+        catch (Exception e) {
+            System.out.println("Failed to open the file in a new tab: " + e.getMessage());
+        }
+    }
+
+    public boolean verifyTextInPDF(File pdfFile, String searchText) throws IOException {
+        try (PDDocument document = PDDocument.load(pdfFile)) {
+            PDFTextStripper pdfStripper = new PDFTextStripper();
+
+            String text = pdfStripper.getText(document);
+            return text.contains(searchText);
+        }
     }
 }
