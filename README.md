@@ -12,10 +12,12 @@ Day6: Create an automation script that clicks the start button, waits for the pr
 
 Day7: Right-clicks to open a context menu, navigates to the 'Share menu', clicks all social media links in the submenu, and verifies the confirmation message for each link.
 
-Day8: Drag and Drop Items into their corresponding spots.
+Day8: Create an automation script that Drag and Drop Items into their corresponding spots.
 
-Day9: Using assertion compare the value from the clipboard and the value of the input field.
+Day9: Create an automation script that Uses assertion to compare the value from the clipboard and the value of the input field.
 
-Day10: Download a pdf file and verify a text in that file.
+Day10: Create an automation script that Downloads a pdf file and verify a text in that file.
 
-Day11: Add and Remove Tags then assert tag's presence and count
+Day11: Create an automation script that Add and Remove Tags then assert tag's presence and count
+
+Day12: Create an automation script that Verify link count calculation and identification of page with maximum links by using HashMap concept of java.

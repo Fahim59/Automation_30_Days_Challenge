@@ -396,4 +396,14 @@ public class BasePage extends BaseClass{
     public String getTagText(){
         return get_Text(tagText);
     }
+
+    /**
+     * Day 12
+    */
+    private final By links = By.tagName("a");
+
+    public int getLinkCount() {
+        List<WebElement> elements = wait_for_presence_list(links);
+        return elements.size();
+    }
 }

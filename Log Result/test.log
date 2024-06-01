@@ -115,3 +115,16 @@
 2024-06-01 22:40:26.613 [main] INFO  base.BaseClass - Website open successfully
 2024-06-01 22:40:27.864 [main] INFO  tests.Day11 - Add and Remove Tags then assert tag's presence and count
 2024-06-01 22:40:27.877 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 22:45:22.818 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 22:47:07.617 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 22:47:07.621 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 22:47:07.794 [main] INFO  tests.Day12 - Add and Remove Tags then assert tag's presence and count
+2024-06-01 22:47:07.801 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 23:02:20.131 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 23:02:20.136 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 23:02:59.127 [main] INFO  tests.Day12 - Verify link count calculation and identification of page with maximum links
+2024-06-01 23:02:59.129 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-01 23:07:14.646 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-01 23:07:14.650 [main] INFO  base.BaseClass - Website open successfully
+2024-06-01 23:08:33.914 [main] INFO  tests.Day12 - Verify link count calculation and identification of page with maximum links
+2024-06-01 23:08:33.920 [main] INFO  base.BaseClass - Browser quit successfully
