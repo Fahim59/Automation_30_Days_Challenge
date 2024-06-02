@@ -406,4 +406,21 @@ public class BasePage extends BaseClass{
         List<WebElement> elements = wait_for_presence_list(links);
         return elements.size();
     }
+
+    /**
+     * Day 13
+    */
+    private final By pdfLink = By.linkText("Download the printable PDF of Selenium cheat sheet");
+
+    public void clickPdfLink() {
+        click_Element(pdfLink);
+
+        String currentHandle = driver.getWindowHandle();
+        for (String handle : driver.getWindowHandles()) {
+            if (!handle.equals(currentHandle)) {
+                driver.switchTo().window(handle);
+                break;
+            }
+        }
+    }
 }

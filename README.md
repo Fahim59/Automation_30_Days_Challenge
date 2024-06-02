@@ -21,3 +21,5 @@ Day10: Create an automation script that Downloads a pdf file and verify a text i
 Day11: Create an automation script that Add and Remove Tags then assert tag's presence and count
 
 Day12: Create an automation script that Verify link count calculation and identification of page with maximum links by using HashMap concept of java.
+
+Day13: Create an automation script that Downloads a PDF and stores it in local System.
