@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 
 import java.awt.*;
-import java.security.Key;
 import java.util.*;
 import java.awt.datatransfer.*;
 import java.io.File;
@@ -421,6 +420,81 @@ public class BasePage extends BaseClass{
                 driver.switchTo().window(handle);
                 break;
             }
+        }
+    }
+
+    /**
+     * Day 14
+    */
+    private final By acceptCookiesBtn = By.xpath("//*[@role='button' and contains(text(),'Accept All Cookies')]");
+
+    private final By departureField = By.xpath("(//input[@type='text'])[1]");
+    private final By destinationField = By.xpath("(//input[@type='text'])[2]");
+
+    private final By departDateField = By.xpath("(//input[contains(@id,'date-picker')])[1]");
+    private final By returnDateField = By.xpath("(//input[contains(@id,'date-picker')])[2]");
+
+    private final By searchFlightBtn = By.xpath("(.//*[text()='Search flights'])[1]");
+    private final By continueSearchFlightBtn = By.xpath("//span[normalize-space()='Continue to flight results']");
+
+    private final By searchText = By.xpath("//h2[contains(normalize-space(),'No flights have been found for your search criteria')]");
+
+    private final By errorText = By.xpath("(//jb-error[@id])[1]");
+
+    public void clickCookiesBtn() {
+        WebElement iframe = driver.findElement(By.xpath("//iframe[@name='trustarc_cm']"));
+        driver.switchTo().frame(iframe);
+
+        click_Element_Js(acceptCookiesBtn);
+
+        driver.switchTo().defaultContent();
+    }
+
+    public void enterDepartureCity(String city){
+        write_Send_Keys(departureField, city);
+
+        WebElement destination = wait_for_visibility(By.xpath("//strong[normalize-space()='"+city+"']"));
+        destination.click();
+    }
+    public void enterDestinationCity(String city){
+        write_Send_Keys(destinationField, city);
+
+        WebElement destination = wait_for_visibility(By.xpath("//strong[normalize-space()='"+city+"']"));
+        destination.click();
+    }
+
+    public void enterDepartDate(String date){
+        click_Element(departDateField);
+        write_Send_Keys(departDateField, date + Keys.ENTER);
+    }
+
+    public void enterReturnDate(String date){
+        click_Element(returnDateField);
+        write_Send_Keys(returnDateField, date + Keys.ENTER);
+    }
+
+    public void clickSearchFlightBtn() {
+        click_Element_Js(searchFlightBtn);
+        click_Element(continueSearchFlightBtn);
+    }
+
+    public void verifySearchText() {
+        WebElement element = wait_for_visibility(searchText);
+        if(element.getText().contains("No flights have been found")){
+            System.out.println("No Flight is available");
+        }
+        else{
+            System.out.println("Flight available");
+        }
+    }
+
+    public void verifyErrorText() {
+        WebElement element = wait_for_visibility(errorText);
+        if(element.getText().contains("Choose date after")){
+            System.out.println("No Flight is available");
+        }
+        else{
+            System.out.println("Flight available");
         }
     }
 }

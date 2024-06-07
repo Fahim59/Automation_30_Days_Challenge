@@ -1,6 +1,5 @@
 package base;
 
-import constants.EndPoint;
 import factory.DriverFactory;
 import java.io.File;
 import org.apache.commons.io.*;
@@ -17,7 +16,8 @@ import java.util.*;
 
 public class BaseClass {
     public static WebDriver driver;
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
     private static final Logger logger = LogManager.getLogger(BaseClass.class);
 
@@ -31,7 +31,8 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        Open_Website(EndPoint.DAY13.url);
+        Open_Website("");
+        //Open_Website(EndPoint.DAY13.url);
 
         logger.info("Website open successfully");
     }
@@ -68,6 +69,11 @@ public class BaseClass {
     public void click_Element(By locator) {
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
+    public void click_Element_Js(By locator) {
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        js.executeScript("arguments[0].click();", element);
+    }
+
 
     public void write_Send_Keys(By locator, String txt) {
         WebElement element = wait_for_presence(locator);

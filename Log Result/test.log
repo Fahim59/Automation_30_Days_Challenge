@@ -1,32 +1,71 @@
-2024-06-02 09:45:02.651 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 09:45:03.624 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 09:45:53.530 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 09:45:54.400 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 09:46:18.240 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 09:46:19.173 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 09:46:20.240 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 09:46:20.241 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-02 10:23:48.959 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 10:23:49.882 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 10:23:50.609 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 10:23:50.617 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-02 10:29:10.950 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 10:29:11.815 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 10:29:12.785 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 10:29:12.792 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-02 10:32:15.090 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 10:32:15.971 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 10:32:16.525 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 10:32:16.533 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-02 10:35:53.510 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 10:35:54.452 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 10:35:55.450 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 10:35:55.455 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-02 10:38:44.258 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 10:38:45.226 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 10:38:46.164 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 10:38:46.170 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-02 11:17:53.194 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-02 11:17:54.133 [main] INFO  base.BaseClass - Website open successfully
-2024-06-02 11:17:54.962 [main] INFO  tests.Day13 - Download PDF and store in local System
-2024-06-02 11:17:54.968 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 21:30:39.445 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 21:30:44.361 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 21:30:58.331 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 21:31:00.480 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 21:31:37.232 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 21:31:39.827 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 21:31:57.404 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 21:31:57.406 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 21:59:58.264 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:00:05.544 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:00:21.616 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:00:21.618 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:00:49.090 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:00:53.921 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:01:15.150 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:01:15.151 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:02:03.203 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:02:11.812 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:02:37.745 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:02:37.746 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:03:44.699 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:03:48.325 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:04:15.595 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:04:15.597 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:05:04.291 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:05:09.708 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:05:35.917 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:05:35.919 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:05:53.218 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:05:59.030 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:06:11.404 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:06:11.406 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:12:05.886 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:12:09.375 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:12:27.029 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:12:32.827 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:12:39.900 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:12:46.858 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:12:54.234 [main] INFO  tests.Day14 - Verify Flight Result Search
+2024-06-07 22:12:54.243 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:12:54.244 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:17:15.484 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:17:22.765 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:17:32.187 [main] INFO  tests.Day14 - Verify Flight Result Search
+2024-06-07 22:17:32.201 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:17:32.203 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:22:03.010 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:22:09.189 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:22:16.663 [main] INFO  tests.Day14 - Verify Flight Result Search
+2024-06-07 22:22:16.679 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:22:16.680 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:23:34.127 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:23:40.001 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:23:47.392 [main] INFO  tests.Day14 - Verify Flight Result Search
+2024-06-07 22:23:47.401 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:23:47.403 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:25:01.279 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:25:07.620 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:25:15.088 [main] INFO  tests.Day14 - Verify Flight Result Search
+2024-06-07 22:25:15.096 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:25:15.097 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:34:30.098 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:34:35.005 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:34:51.467 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:34:51.468 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-07 22:39:20.950 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:39:24.119 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:39:35.265 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-07 22:39:40.652 [main] INFO  base.BaseClass - Website open successfully
+2024-06-07 22:39:42.657 [main] INFO  tests.Day14 - Verify Failed Flight Search
+2024-06-07 22:39:42.657 [main] INFO  base.BaseClass - Browser quit successfully

@@ -23,3 +23,7 @@ Day11: Create an automation script that Add and Remove Tags then assert tag's pr
 Day12: Create an automation script that Verify link count calculation and identification of page with maximum links by using HashMap concept of java.
 
 Day13: Create an automation script that Downloads a PDF and stores it in local System.
+
+Day14: Create an automation script that validates following two test cases -
+       Test Case 1: Verify Flight Results Search
+       Test Case 2: Verify Failed Flight Search
