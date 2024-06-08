@@ -589,4 +589,19 @@ public class BasePage extends BaseClass{
         return enterFirstName(firstName).enterLastName(lastName).enterPhone(phone).enterCountry(country).
                 enterCity(city).enterEmail(email).selectGender(gender).selectDay(day).selectTime(time);
     }
+
+    /**
+     * Day 16
+    */
+    private final By posterField = By.xpath("//img[@class='poster']");
+    private final By priceTextField = By.xpath("//p[@class='current-price']");
+
+    public void hoverOnPoster() {
+        WebElement poster = wait_for_visibility(posterField);
+        actions.moveToElement(poster).perform();
+    }
+
+    public String fetchPrice(){
+        return get_Text(priceTextField);
+    }
 }

@@ -41,3 +41,15 @@
 2024-06-08 13:39:57.176 [main] INFO  base.BaseClass - Website open successfully
 2024-06-08 13:40:01.446 [main] INFO  tests.Day15 - Fill up form using API data
 2024-06-08 13:40:01.454 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 13:54:27.659 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 13:54:29.846 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 13:54:30.034 [main] INFO  tests.Day16 - Hover on the movie poster and fetch price of it
+2024-06-08 13:54:30.039 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 14:03:16.385 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 14:03:17.627 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 14:03:18.028 [main] INFO  tests.Day16 - Hover on the movie poster and fetch price of it
+2024-06-08 14:03:18.034 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 14:03:57.706 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 14:03:59.424 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 14:03:59.897 [main] INFO  tests.Day16 - Hover on the movie poster and fetch price of it
+2024-06-08 14:03:59.904 [main] INFO  base.BaseClass - Browser quit successfully

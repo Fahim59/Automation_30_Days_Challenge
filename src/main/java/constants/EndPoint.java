@@ -14,7 +14,8 @@ public enum EndPoint {
     DAY10("/FileDownload.html"),
     DAY11("/apps/tags-input-box/"),
     DAY13("/blog/tutorial/selenium-tutorial/selenium-cheat-sheet/"),
-    DAY15("/meherpavan/form2/index.html?1537702596407")
+    DAY15("/meherpavan/form2/index.html?1537702596407"),
+    DAY16("/apps/mouse-hover/")
     ;
 
     public final String url;
