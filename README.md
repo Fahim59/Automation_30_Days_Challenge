@@ -29,4 +29,5 @@ Day14: Create an automation script that validates following two test cases -
        Test Case 2: Verify Failed Flight Search
 
 Day15: Create an automation script that fill up the form and submit it using API data.
+
 Day16: Create an automation script that hover on the movie poster and fetch price of it.
