@@ -115,3 +115,49 @@
 2024-06-08 21:54:21.576 [main] INFO  base.BaseClass - Website open successfully
 2024-06-08 21:54:29.127 [main] INFO  tests.Day17 - Verify KFC locations based on Geo location
 2024-06-08 21:54:29.135 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 22:49:00.873 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 22:49:02.157 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 22:49:02.359 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 22:49:02.366 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 22:51:43.421 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 22:51:44.803 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 22:51:46.225 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 22:51:46.231 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 22:52:02.517 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 22:52:03.824 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 22:52:05.168 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 22:52:05.170 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 22:56:25.801 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 22:56:27.025 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 22:56:27.378 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 22:56:27.378 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 22:57:59.863 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 22:58:01.047 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 22:58:01.723 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 22:58:30.687 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 22:58:32.086 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 22:58:32.439 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 23:00:07.796 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 23:00:08.949 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 23:00:09.312 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 23:00:09.317 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 23:01:23.066 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 23:01:24.228 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 23:01:24.434 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 23:01:24.443 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 23:02:38.164 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 23:02:39.363 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 23:02:39.637 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 23:02:39.647 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 23:03:40.037 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 23:03:41.173 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 23:03:41.496 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 23:03:41.504 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 23:06:09.443 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 23:06:10.328 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 23:06:12.838 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 23:06:12.838 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-08 23:07:15.113 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-08 23:07:16.227 [main] INFO  base.BaseClass - Website open successfully
+2024-06-08 23:07:18.644 [main] INFO  tests.Day18 - Scroll and verify visibility of button and click on it
+2024-06-08 23:07:18.649 [main] INFO  base.BaseClass - Browser quit successfully

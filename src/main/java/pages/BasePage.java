@@ -4,7 +4,6 @@ import base.BaseClass;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 
@@ -634,5 +633,29 @@ public class BasePage extends BaseClass{
                 System.out.println("No locations found for the given geolocation.");
             }
         }
+    }
+
+    /**
+     * Day 18
+    */
+    private final By buttonText = By.xpath("//p[@id='info']");
+    private final By foundMeBtn = By.xpath("//a[@id='fugitive']");
+
+    public void scrollToBtn() {
+        WebElement button = wait_for_visibility(foundMeBtn);
+        js.executeScript("arguments[0].scrollIntoView();", button);
+    }
+
+    public void clickFoundMeBtn() {
+        click_Element(foundMeBtn);
+    }
+
+    public void scrollToText() {
+        WebElement text = wait_for_visibility(buttonText);
+        js.executeScript("arguments[0].scrollIntoView();", text);
+    }
+
+    public String getBtnText(){
+        return get_Text(buttonText);
     }
 }

@@ -32,5 +32,12 @@
   },
   "day11": {
     "tag": "<script>alert()</script>"
+  },
+  "day17": {
+    "coordinates1": [38.9072, -77.0369, 100],
+    "coordinates2": [19.076090, 72.877426, 100]
+  },
+  "day18": {
+    "message": "Mission accomplished"
   }
 }
