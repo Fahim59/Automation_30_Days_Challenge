@@ -576,9 +576,8 @@ public class BasePage extends BaseClass{
         return this;
     }
 
-    public BasePage uploadFile(String path) throws InterruptedException {
+    public void uploadFile(String path) throws InterruptedException {
         upload_file(fileUploadField, path);
-        return this;
     }
 
     public void clickSubmitBtn() {
