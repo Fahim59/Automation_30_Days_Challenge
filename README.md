@@ -31,3 +31,5 @@ Day14: Create an automation script that validates following two test cases -
 Day15: Create an automation script that fill up the form and submit it using API data.
 
 Day16: Create an automation script that hover on the movie poster and fetch price of it.
+
+Day17: Create an automation script that verify KFC locations based on Geo locations.

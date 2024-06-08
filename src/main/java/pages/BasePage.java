@@ -4,6 +4,7 @@ import base.BaseClass;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 
@@ -603,5 +604,35 @@ public class BasePage extends BaseClass{
 
     public String fetchPrice(){
         return get_Text(priceTextField);
+    }
+
+    /**
+     * Day 17
+    */
+    private final By myLocationBtn = By.xpath("//button[@data-ya-track='geolocate']");
+    private final By locationName = By.xpath("//span[@class='LocationName-geo']");
+    private final By noLocationMsg = By.xpath("//div[@class='Locator-noResults']");
+
+    public void clickMyLocationBtn(){
+        click_Element(myLocationBtn);
+    }
+
+    public void printLocationNames(){
+        try{
+            WebElement locations = wait_for_visibility(locationName);
+
+            if(locations.isDisplayed()){
+                List<WebElement> locationNames = wait_for_presence_list(locationName);
+
+                for (WebElement location : locationNames) {
+                    System.out.println("KFC " + location.getText() + "\n");
+                }
+            }
+        }
+        catch (Exception e) {
+            if(get_Text(noLocationMsg).contains("Sorry")) {
+                System.out.println("No locations found for the given geolocation.");
+            }
+        }
     }
 }
