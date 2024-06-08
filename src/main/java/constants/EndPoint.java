@@ -13,7 +13,8 @@ public enum EndPoint {
     DAY9("/shadowdom"),
     DAY10("/FileDownload.html"),
     DAY11("/apps/tags-input-box/"),
-    DAY13("/blog/tutorial/selenium-tutorial/selenium-cheat-sheet/")
+    DAY13("/blog/tutorial/selenium-tutorial/selenium-cheat-sheet/"),
+    DAY15("/meherpavan/form2/index.html?1537702596407")
     ;
 
     public final String url;

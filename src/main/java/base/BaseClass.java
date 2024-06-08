@@ -1,6 +1,11 @@
 package base;
 
+import constants.EndPoint;
 import factory.DriverFactory;
+
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import org.apache.commons.io.*;
 import org.apache.logging.log4j.*;
@@ -13,6 +18,7 @@ import utils.ConfigLoader;
 import java.text.*;
 import java.time.Duration;
 import java.util.*;
+import java.util.List;
 
 public class BaseClass {
     public static WebDriver driver;
@@ -31,8 +37,8 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        Open_Website("");
-        //Open_Website(EndPoint.DAY13.url);
+        //Open_Website("");
+        Open_Website(EndPoint.DAY15.url);
 
         logger.info("Website open successfully");
     }
@@ -120,6 +126,34 @@ public class BaseClass {
     public String get_Text(By locator) {
         WebElement element = wait_for_presence(locator);
         return element.getText();
+    }
+
+    public void upload_file(By locator, String path) throws InterruptedException {
+        Actions action = new Actions(driver);
+
+        WebElement element = wait_for_presence(locator);
+        action.moveToElement(element).click().build().perform();
+
+        SmallWait(1000);
+
+        try {
+            StringSelection filePath = new StringSelection(path);
+            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePath, null);
+
+            Robot robot = new Robot();
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+
+            SmallWait(1000);
+
+            robot.keyPress(KeyEvent.VK_ENTER);
+            robot.keyRelease(KeyEvent.VK_ENTER);
+        }
+        catch (Exception exp) {
+            exp.printStackTrace();
+        }
     }
     //---------------------------------------------------------------------------------------------//
     @AfterTest

@@ -497,4 +497,97 @@ public class BasePage extends BaseClass{
             System.out.println("Flight available");
         }
     }
+
+    /**
+     * Day 15
+    */
+    private final By firstNameField = By.cssSelector("#RESULT_TextField-1");
+    private final By lastNameField = By.cssSelector("#RESULT_TextField-2");
+
+    private final By phoneField = By.cssSelector("#RESULT_TextField-3");
+    private final By countryField = By.cssSelector("#RESULT_TextField-4");
+    private final By cityField = By.cssSelector("#RESULT_TextField-5");
+    private final By emailField = By.cssSelector("#RESULT_TextField-6");
+
+    private final By genderField = By.name("RESULT_RadioButton-7");
+    private final By dayField = By.name("RESULT_CheckBox-8");
+    private final By timeField = By.name("RESULT_RadioButton-9");
+
+    private final By fileUploadField = By.name("RESULT_FileUpload-10");
+
+    private final By submitBtn = By.xpath("//input[@name='Submit']");
+
+    public BasePage enterFirstName(String firstName){
+        write_Send_Keys(firstNameField, firstName);
+        return this;
+    }
+    public BasePage enterLastName(String lastName){
+        write_Send_Keys(lastNameField, lastName);
+        return this;
+    }
+
+    public BasePage enterPhone(String phone){
+        write_Send_Keys(phoneField, phone);
+        return this;
+    }
+    public BasePage enterCountry(String country){
+        write_Send_Keys(countryField, country);
+        return this;
+    }
+    public BasePage enterCity(String city){
+        write_Send_Keys(cityField, city);
+        return this;
+    }
+    public BasePage enterEmail(String email){
+        write_Send_Keys(emailField, email);
+        return this;
+    }
+
+    public BasePage selectGender(String gender){
+        List<WebElement> options = driver.findElements(genderField);
+
+        for (WebElement option : options) {
+            if (option.getAttribute("value").equalsIgnoreCase(gender)) {
+                if (!option.isSelected()) {
+                    js.executeScript("arguments[0].click();", option);
+                }
+            }
+        }
+        return this;
+    }
+    public BasePage selectDay(String day){
+        List<WebElement> options = driver.findElements(dayField);
+
+        for (WebElement option : options) {
+            if (option.getAttribute("value").equalsIgnoreCase(day)) {
+                if (!option.isSelected()) {
+                    js.executeScript("arguments[0].click();", option);
+                }
+            }
+        }
+        return this;
+    }
+    public BasePage selectTime(String time){
+        WebElement element = wait_for_visibility(timeField);
+
+        Select select = new Select(element);
+        select.selectByVisibleText(time);
+
+        return this;
+    }
+
+    public BasePage uploadFile(String path) throws InterruptedException {
+        upload_file(fileUploadField, path);
+        return this;
+    }
+
+    public void clickSubmitBtn() {
+        click_Element_Js(submitBtn);
+    }
+
+    public BasePage enterDetails(String firstName, String lastName, String phone, String country, String city, String email,
+                                 String gender, String day, String time){
+        return enterFirstName(firstName).enterLastName(lastName).enterPhone(phone).enterCountry(country).
+                enterCity(city).enterEmail(email).selectGender(gender).selectDay(day).selectTime(time);
+    }
 }
