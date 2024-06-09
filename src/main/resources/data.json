@@ -39,5 +39,9 @@
   },
   "day18": {
     "message": "Mission accomplished"
+  },
+  "day19": {
+    "number": " out of 5",
+    "message": ["I just hate it","I don't like it","This is awesome","I just like it","I just love it"]
   }
 }

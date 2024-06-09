@@ -17,7 +17,8 @@ public enum EndPoint {
     DAY15("/meherpavan/form2/index.html?1537702596407"),
     DAY16("/apps/mouse-hover/"),
     DAY17("/search"),
-    DAY18("/apps/covered/#")
+    DAY18("/apps/covered/#"),
+    DAY19("/apps/rating/")
     ;
 
     public final String url;

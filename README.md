@@ -35,3 +35,7 @@ Day16: Create an automation script that hover on the movie poster and fetch pric
 Day17: Create an automation script that verify KFC locations based on Geo locations.
 
 Day18: Create an automation script that verify button is visible on scroll and user need to click on the button.
+
+Day19: Create an automation script that verify set each available rate value and asset by image, text and number.
+
+Day20: Create an automation script that fetch and verify text from QR code.

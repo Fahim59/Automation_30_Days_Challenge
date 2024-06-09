@@ -658,4 +658,35 @@ public class BasePage extends BaseClass{
     public String getBtnText(){
         return get_Text(buttonText);
     }
+
+    /**
+     * Day 19
+    */
+    public void clickStarRating(int count){
+        WebElement element = driver.findElement(By.xpath("//label[@for='star-"+count+"']"));
+        element.click();
+    }
+    public boolean checkEmojiVisibility(int count){
+        WebElement element = driver.findElement(By.cssSelector("img[src='emojis/emoji-"+count+".png']"));
+        return element.isDisplayed();
+    }
+
+    public String getMessage(){
+        WebElement element = driver.findElement(By.className("text"));
+
+        String script = "return window.getComputedStyle(arguments[0], '::before').getPropertyValue('content')";
+        String pseudoContent = (String) js.executeScript(script, element);
+        pseudoContent = pseudoContent.replaceAll("^\"|\"$", "");
+
+        return pseudoContent;
+    }
+    public String getNumber(){
+        WebElement element = driver.findElement(By.className("numb"));
+
+        String script = "return window.getComputedStyle(arguments[0], '::before').getPropertyValue('content')";
+        String pseudoContent = (String) js.executeScript(script, element);
+        pseudoContent = pseudoContent.replaceAll("^\"|\"$", "");
+
+        return pseudoContent;
+    }
 }
