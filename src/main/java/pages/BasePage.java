@@ -1,6 +1,12 @@
 package pages;
 
 import base.BaseClass;
+import com.google.zxing.BinaryBitmap;
+import com.google.zxing.LuminanceSource;
+import com.google.zxing.MultiFormatReader;
+import com.google.zxing.Result;
+import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
+import com.google.zxing.common.HybridBinarizer;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.openqa.selenium.*;
@@ -9,7 +15,11 @@ import org.openqa.selenium.support.ui.*;
 
 import org.testng.Assert;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.net.URL;
 import java.util.*;
 import java.awt.datatransfer.*;
 import java.io.File;
@@ -688,5 +698,59 @@ public class BasePage extends BaseClass{
         pseudoContent = pseudoContent.replaceAll("^\"|\"$", "");
 
         return pseudoContent;
+    }
+
+    /**
+     * Day 20
+    */
+    private final By inputTextField = By.xpath("//input[@placeholder='Enter text or URL']");
+    private final By generateBtn = By.xpath("//button[normalize-space()='Generate QR Code']");
+
+    private final By qrCodeField = By.xpath("//img[@alt='qr-code']");
+
+    public void enterText(String text){
+        write_Send_Keys(inputTextField, text);
+    }
+
+    public void clickQRGenerator(){
+        click_Element(generateBtn);
+    }
+
+    public String getQRCode(){
+        WebElement qrCode = wait_for_visibility(qrCodeField);
+        String url = qrCode.getAttribute("src");
+        String content = "";
+
+        if(qrCode.isDisplayed()){
+            content = decodeQRCode(url);
+        }
+        return content;
+    }
+
+    private static String decodeQRCode(Object qrCodeImage) {
+        Result result;
+        BufferedImage bufferedImage = null;
+
+        try {
+            if (qrCodeImage instanceof String && ((String) qrCodeImage).contains("http")) {
+                bufferedImage = ImageIO.read(new URL((String) qrCodeImage));
+            }
+            else if (qrCodeImage instanceof BufferedImage) {
+                bufferedImage = (BufferedImage) qrCodeImage;
+            }
+            else {
+                throw new IllegalArgumentException("Unsupported input type for qrCodeImage");
+            }
+
+            LuminanceSource source = new BufferedImageLuminanceSource(bufferedImage);
+            BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
+            result = new MultiFormatReader().decode(bitmap);
+
+        }
+        catch (IOException | NotFoundException | com.google.zxing.NotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+        return result.getText();
     }
 }

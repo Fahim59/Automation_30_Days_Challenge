@@ -18,7 +18,8 @@ public enum EndPoint {
     DAY16("/apps/mouse-hover/"),
     DAY17("/search"),
     DAY18("/apps/covered/#"),
-    DAY19("/apps/rating/")
+    DAY19("/apps/rating/"),
+    DAY20("/apps/qr-code-generator/"),
     ;
 
     public final String url;

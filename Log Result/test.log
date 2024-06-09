@@ -37,3 +37,26 @@
 2024-06-09 12:30:12.864 [main] INFO  base.BaseClass - Website open successfully
 2024-06-09 12:30:18.683 [main] INFO  tests.Day19 - Set each available rate value and asset by image, text and number
 2024-06-09 12:30:18.690 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-09 12:54:21.854 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-09 12:54:24.251 [main] INFO  base.BaseClass - Website open successfully
+2024-06-09 12:54:24.425 [main] INFO  tests.Day20 - Fetch and Verify text from QR code
+2024-06-09 12:54:24.431 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-09 12:58:28.255 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-09 12:58:29.579 [main] INFO  base.BaseClass - Website open successfully
+2024-06-09 12:58:30.043 [main] INFO  tests.Day20 - Fetch and Verify text from QR code
+2024-06-09 12:58:30.050 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-09 13:22:28.184 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-09 13:22:30.289 [main] INFO  base.BaseClass - Website open successfully
+2024-06-09 13:22:32.755 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-09 13:24:52.721 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-09 13:24:54.975 [main] INFO  base.BaseClass - Website open successfully
+2024-06-09 13:24:59.241 [main] INFO  tests.Day20 - Fetch and Verify text from QR code
+2024-06-09 13:24:59.257 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-09 13:27:15.222 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-09 13:27:16.726 [main] INFO  base.BaseClass - Website open successfully
+2024-06-09 13:27:20.250 [main] INFO  tests.Day20 - Fetch and Verify text from QR code
+2024-06-09 13:27:20.255 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-09 13:28:07.527 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-09 13:28:09.196 [main] INFO  base.BaseClass - Website open successfully
+2024-06-09 13:28:12.674 [main] INFO  tests.Day20 - Fetch and Verify text from QR code
+2024-06-09 13:28:12.679 [main] INFO  base.BaseClass - Browser quit successfully
