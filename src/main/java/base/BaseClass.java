@@ -37,8 +37,8 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        //Open_Website("");
-        Open_Website(EndPoint.DAY20.url);
+        Open_Website("");
+        //Open_Website(EndPoint.DAY20.url);
 
         logger.info("Website open successfully");
     }
@@ -80,6 +80,23 @@ public class BaseClass {
         js.executeScript("arguments[0].click();", element);
     }
 
+    public void select_Dropdown_Element(By locator, String text) {
+        WebElement element = wait_for_visibility(locator);
+
+        Select select = new Select(element);
+        select.selectByVisibleText(text);
+    }
+    public void click_Radio_Element(By locator, String text) {
+        List<WebElement> options = wait_for_presence_list(locator);
+
+        for (WebElement option : options) {
+            if (option.getAttribute("value").equalsIgnoreCase(text)) {
+                if (!option.isSelected()) {
+                    js.executeScript("arguments[0].click();", option);
+                }
+            }
+        }
+    }
 
     public void write_Send_Keys(By locator, String txt) {
         WebElement element = wait_for_presence(locator);

@@ -18,7 +18,6 @@ import org.testng.Assert;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
 import java.net.URL;
 import java.util.*;
 import java.awt.datatransfer.*;
@@ -554,35 +553,15 @@ public class BasePage extends BaseClass{
     }
 
     public BasePage selectGender(String gender){
-        List<WebElement> options = driver.findElements(genderField);
-
-        for (WebElement option : options) {
-            if (option.getAttribute("value").equalsIgnoreCase(gender)) {
-                if (!option.isSelected()) {
-                    js.executeScript("arguments[0].click();", option);
-                }
-            }
-        }
+        click_Radio_Element(genderField, gender);
         return this;
     }
     public BasePage selectDay(String day){
-        List<WebElement> options = driver.findElements(dayField);
-
-        for (WebElement option : options) {
-            if (option.getAttribute("value").equalsIgnoreCase(day)) {
-                if (!option.isSelected()) {
-                    js.executeScript("arguments[0].click();", option);
-                }
-            }
-        }
+        click_Radio_Element(dayField, day);
         return this;
     }
     public BasePage selectTime(String time){
-        WebElement element = wait_for_visibility(timeField);
-
-        Select select = new Select(element);
-        select.selectByVisibleText(time);
-
+        select_Dropdown_Element(timeField, time);
         return this;
     }
 
@@ -752,5 +731,182 @@ public class BasePage extends BaseClass{
         }
 
         return result.getText();
+    }
+
+    /**
+     * Day 21
+    */
+    private final By adField = By.xpath("//div[@class='ea-stickybox-hide']");
+
+    private final By accountCreateLink = By.linkText("Create an Account");
+
+    private final By firstName = By.cssSelector("#firstname");
+    private final By lastName = By.cssSelector("#lastname");
+    private final By emailAddress = By.cssSelector("#email_address");
+    private final By passwordField = By.cssSelector("#password");
+    private final By confirmPasswordField = By.cssSelector("#password-confirmation");
+
+    private final By createAccountBtn = By.cssSelector("button[title='Create an Account'] span");
+
+    private final By homeBtn = By.xpath("//a[@aria-label='store logo']//img");
+
+    private final By gearMenu = By.xpath("//span[normalize-space()='Gear']");
+    private final By bagsMenu = By.xpath("(//span[contains(text(),'Bags')])[1]");
+
+    private final By allProducts = By.xpath("//a[@class='product-item-link']");
+
+    private final By productName = By.xpath("//span[@itemprop='name']");
+    private final By price = By.cssSelector("span[id='product-price-7'] span[class='price']");
+
+    private final By cartBtn = By.xpath("//span[normalize-space()='Add to Cart']");
+
+    private final By checkoutBtn = By.xpath("//a[normalize-space()='shopping cart']");
+
+    private final By productNameField = By.cssSelector("td[class='col item'] div[class='product-item-details'] a");
+    private final By priceField = By.cssSelector("td[class='col price'] span[class='price']");
+
+    private final By proceedToCheckoutBtn = By.xpath("//span[normalize-space()='Proceed to Checkout']");
+
+    private final By streetAddressField = By.xpath("//input[@name='street[0]']");
+    private final By city_Field = By.xpath("//input[@name='city']");
+    private final By state_Field = By.name("region_id");
+    private final By zip_Field = By.xpath("//input[@name='postcode']");
+    private final By phone_Field = By.xpath("//input[@name='telephone']");
+    private final By shippingType = By.xpath("//input[@type='radio']");
+
+    private final By nextBtn = By.xpath("//span[normalize-space()='Next']");
+    private final By placeOrderBtn = By.xpath("//span[normalize-space()='Place Order']");
+
+    private final By confirmMessage = By.xpath("(.//*[text()='Thank you for your purchase!'])[1]");
+
+    public void closeAd(){
+        click_Element(adField);
+    }
+
+    public void clickAccountCreateLink(){
+        click_Element(accountCreateLink);
+    }
+
+    public BasePage enterFirst_Name(String fname){
+        write_Send_Keys(firstName, fname);
+        return this;
+    }
+    public BasePage enterLast_Name(String lname){
+        write_Send_Keys(lastName, lname);
+        return this;
+    }
+    public BasePage enterEmailAddress(String email){
+        write_Send_Keys(emailAddress, email);
+        return this;
+    }
+    public BasePage enterPass(String password){
+        write_Send_Keys(passwordField, password);
+        return this;
+    }
+    public BasePage enterConfirmPass(String password){
+        write_Send_Keys(confirmPasswordField, password);
+        return this;
+    }
+
+    public BasePage enterAccountDetails(String fname, String lname, String email, String password, String cpassword){
+        return enterFirst_Name(fname).enterLast_Name(lname).enterEmailAddress(email).enterPass(password).enterConfirmPass(cpassword);
+    }
+
+    public void clickCreateAccountBtn(){
+        click_Element(createAccountBtn);
+    }
+
+    public void clickHomeBtn(){
+        click_Element(homeBtn);
+    }
+
+    public void clickBagsMenu(){
+        WebElement element = wait_for_visibility(gearMenu);
+        actions.moveToElement(element).perform();
+
+        click_Element(bagsMenu);
+    }
+
+    public int getProductsCount() {
+        List<WebElement> elements = driver.findElements(allProducts);
+        return elements.size();
+    }
+
+    public void clickProduct(String product){
+        for(int i = 0; i < getProductsCount(); i++){
+            String productName = driver.findElements(allProducts).get(i).getText();
+
+            if(productName.equalsIgnoreCase(product)){
+                wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='"+product+"']"))).click();
+                break;
+            }
+        }
+    }
+
+    public String getProductName(){
+        return get_Text(productName);
+    }
+    public String getProductPrice(){
+        return get_Text(price);
+    }
+
+    public void clickCartBtn(){
+        click_Element(cartBtn);
+
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(checkoutBtn));
+        element.click();
+    }
+
+    public String getProductNameField(){
+        return get_Text(productNameField);
+    }
+    public String getProductPriceField(){
+        return get_Text(priceField);
+    }
+
+    public void clickProceedToCheckoutBtn(){
+        click_Element_Js(proceedToCheckoutBtn);
+    }
+
+    public BasePage enterStreetAddress(String address){
+        write_Send_Keys(streetAddressField, address);
+        return this;
+    }
+    public BasePage enter_City(String city){
+        write_Send_Keys(city_Field, city);
+        return this;
+    }
+    public BasePage selectState(String state){
+        select_Dropdown_Element(state_Field, state);
+        return this;
+    }
+    public BasePage enterZip(String zip){
+        write_Send_Keys(zip_Field, zip);
+        return this;
+    }
+    public BasePage enter_Phone(String phone){
+        write_Send_Keys(phone_Field, phone);
+        return this;
+    }
+    public BasePage select_ShippingType(String type){
+        click_Radio_Element(shippingType, type);
+        return this;
+    }
+
+    public BasePage enterShippingDetails(String address, String city, String state, String zip, String phone, String type){
+        return enterStreetAddress(address).enter_City(city).selectState(state).enterZip(zip).
+                enter_Phone(phone).select_ShippingType(type);
+    }
+
+    public void clickNextBtn(){
+        click_Element(nextBtn);
+    }
+
+    public void clickPlaceOrderBtn(){
+        click_Element_Js(placeOrderBtn);
+    }
+
+    public String getConfirmMessage(){
+        return get_Text(confirmMessage);
     }
 }
