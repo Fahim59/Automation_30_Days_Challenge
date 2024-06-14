@@ -208,7 +208,6 @@ public class BasePage extends BaseClass{
     public void clickShareBtn(){
         WebElement element = wait_for_visibility(shareBtn);
         actions.moveToElement(element).perform();
-
     }
 
     public void clickTwitterBtn(){
@@ -821,15 +820,14 @@ public class BasePage extends BaseClass{
     }
 
     public void clickBagsMenu(){
-        WebElement element = wait_for_visibility(gearMenu);
-        actions.moveToElement(element).perform();
-
-        click_Element(bagsMenu);
+        hover_And_Click(gearMenu, bagsMenu);
     }
 
     public int getProductsCount() {
         List<WebElement> elements = driver.findElements(allProducts);
         return elements.size();
+
+        //return get_Size(allProducts);
     }
 
     public void clickProduct(String product){
@@ -908,5 +906,30 @@ public class BasePage extends BaseClass{
 
     public String getConfirmMessage(){
         return get_Text(confirmMessage);
+    }
+
+    /**
+     * Day 22
+    */
+    private final By megaMenu = By.xpath("//span[normalize-space()='Mega Menu']");
+    private final By appleMenu = By.xpath("//a[normalize-space()='Apple']");
+
+    private final By allItems = By.xpath("(//div[@class='product-layout product-grid no-desc col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6'])");
+
+    private final By product_Name = By.xpath("(//a[@class='text-ellipsis-2'])");
+    private final By product_Price = By.xpath("(//span[@class='price-new'])");
+
+    public void clickAppleMenu(){
+        hover_And_Click(megaMenu, appleMenu);
+    }
+
+    public By getAllItemsLocator() {
+        return allItems;
+    }
+    public By getProductNameLocator() {
+        return product_Name;
+    }
+    public By getProductPriceLocator() {
+        return product_Price;
     }
 }

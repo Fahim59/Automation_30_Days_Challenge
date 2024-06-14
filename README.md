@@ -41,3 +41,5 @@ Day19: Create an automation script that verify set each available rate value and
 Day20: Create an automation script that fetch and verify text from QR code.
 
 Day21: Create an automation script that fetch and verify the product cart checkout flow.
+
+Day22: Create an automation script that fetch and verify the product price and sort it from low to high.

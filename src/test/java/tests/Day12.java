@@ -21,7 +21,7 @@ class PageInfo {
 
 public class Day12 extends BaseClass {
 
-    private static final Logger logger = LogManager.getLogger(Day12.class);
+    private static final Logger logger = LogManager.getLogger(Day22.class);
     static HashMap<String, PageInfo> pageInfoMap;
 
     private BasePage basePage;

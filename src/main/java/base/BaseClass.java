@@ -1,6 +1,5 @@
 package base;
 
-import constants.EndPoint;
 import factory.DriverFactory;
 
 import java.awt.*;
@@ -98,6 +97,15 @@ public class BaseClass {
         }
     }
 
+    public void hover_And_Click(By locator_hover, By locator_click ){
+        Actions actions = new Actions(driver);
+
+        WebElement element = wait_for_visibility(locator_hover);
+        actions.moveToElement(element).perform();
+
+        click_Element(locator_click);
+    }
+
     public void write_Send_Keys(By locator, String txt) {
         WebElement element = wait_for_presence(locator);
         String text = element.getAttribute("value");
@@ -143,6 +151,10 @@ public class BaseClass {
     public String get_Text(By locator) {
         WebElement element = wait_for_presence(locator);
         return element.getText();
+    }
+    public int get_Size(By locator) {
+        List<WebElement> elements = wait_for_presence_list(locator);
+        return elements.size();
     }
 
     public void upload_file(By locator, String path) throws InterruptedException {

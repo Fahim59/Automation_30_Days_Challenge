@@ -46,3 +46,46 @@
 2024-06-14 00:48:29.688 [main] INFO  tests.Day21 - Account created with valid info
 2024-06-14 00:48:53.121 [main] INFO  tests.Day21 - Order successfully submitted
 2024-06-14 00:48:53.123 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 01:04:48.405 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 01:04:52.587 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 01:04:52.796 [main] INFO  tests.Day222 - Sort the Product price from low to high
+2024-06-14 01:04:52.803 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 01:08:39.372 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 01:08:43.620 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 01:08:43.802 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 01:08:43.808 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 19:38:33.011 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 19:39:20.923 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 19:39:27.126 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 19:39:27.132 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 19:56:35.205 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 19:56:48.588 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 19:56:56.648 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 19:56:56.654 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 21:52:50.519 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 21:52:56.343 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 21:53:01.172 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 21:56:30.054 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 21:56:37.726 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 21:56:44.149 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 21:56:44.156 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 22:03:23.969 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 22:03:32.554 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 22:03:38.845 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 22:03:38.850 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 22:29:14.682 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 22:29:20.273 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 22:29:24.199 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 22:29:24.205 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 22:31:31.820 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 22:31:36.830 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 22:31:41.568 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 22:31:41.574 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 22:37:43.343 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 22:37:48.843 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 22:37:52.977 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 22:37:52.986 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-14 22:39:52.566 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-14 22:39:57.948 [main] INFO  base.BaseClass - Website open successfully
+2024-06-14 22:40:02.478 [main] INFO  tests.Day22 - Sort the Product price from low to high
+2024-06-14 22:40:02.484 [main] INFO  base.BaseClass - Browser quit successfully
