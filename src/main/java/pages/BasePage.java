@@ -975,4 +975,49 @@ public class BasePage extends BaseClass{
             Assert.assertEquals(expectedText, redirectText);
         }
     }
+
+    /**
+     * Day 24
+    */
+    private final By clearAllBtn = By.xpath("//button[contains(text(),'Clear all')]");
+
+    public void selectFilter(String filterCategory, String... filterOptions){
+        try {
+            WebElement category = driver.findElement(By.xpath("//*[@class='phx-field__label phx:weight-bold' and contains(text(),'"+filterCategory+"')]"));
+
+            if (category == null) {
+                throw new Exception("Invalid filter category: " +filterCategory);
+            }
+
+            if (filterOptions.length == 1 && filterOptions[0].equalsIgnoreCase("all")) {
+                List<WebElement> checkboxes = category.findElements(By.xpath(".//input[@type='checkbox']"));
+
+                for (WebElement checkbox : checkboxes) {
+                    if (!checkbox.isSelected()) {
+                        js.executeScript("arguments[0].click();", checkbox);
+                    }
+                }
+            }
+            else {
+                for (String option : filterOptions) {
+                    WebElement checkbox = category.findElement(By.xpath("//span[normalize-space()='"+option+"']"));
+
+                    if (checkbox == null) {
+                        throw new Exception("Invalid filter option: " +option+ " for category: " +filterCategory);
+                    }
+
+                    if (!checkbox.isSelected()) {
+                        js.executeScript("arguments[0].click();", checkbox);
+                    }
+                }
+            }
+        }
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void resetFilter() {
+        click_Element_Js(clearAllBtn);
+    }
 }

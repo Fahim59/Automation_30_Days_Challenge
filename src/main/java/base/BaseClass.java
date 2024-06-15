@@ -38,7 +38,7 @@ public class BaseClass {
     @BeforeClass
     public static void open_website(){
         //Open_Website("");
-        Open_Website(EndPoint.DAY23.url);
+        Open_Website(EndPoint.DAY24.url);
 
         logger.info("Website open successfully");
     }
@@ -58,7 +58,7 @@ public class BaseClass {
     public static void Scroll_Down() throws InterruptedException {
         SmallWait(1000);
         JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getDriver();
-        js.executeScript("window.scrollBy(0,600)", "");
+        js.executeScript("window.scrollBy(0,300)", "");
     }
 
     //---------------------------------------------------------------------------------------//

@@ -45,3 +45,5 @@ Day21: Create an automation script that fetch and verify the product cart checko
 Day22: Create an automation script that fetch and verify the product price and sort it from low to high.
 
 Day 23: Create an automation script that test Redirection chain of pages and verify 'GO BACK' button.
+
+Day 24: You need to create a single function that handles filter category functionality with all the test scenarios mentioned below with error handling.
