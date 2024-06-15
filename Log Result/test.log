@@ -232,3 +232,7 @@
 2024-06-15 22:42:01.713 [main] INFO  tests.Day24 - Invalid Filter Category
 2024-06-15 22:42:01.738 [main] INFO  tests.Day24 - Invalid Filter Options
 2024-06-15 22:42:01.739 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 23:14:01.181 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 23:14:03.596 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 23:14:04.214 [main] INFO  tests.Day5 - Enter valid code by keyboard keys by pressing the only key button and asserting 'success' message
+2024-06-15 23:14:04.220 [main] INFO  base.BaseClass - Browser quit successfully

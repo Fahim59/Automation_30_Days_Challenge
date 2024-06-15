@@ -135,8 +135,7 @@ public class BasePage extends BaseClass{
     private final By successMsg = By.xpath("//small[@class='info success']");
 
     public int getInputFieldSize() {
-        List<WebElement> elements = wait_for_presence_list(inputField);
-        return elements.size();
+        return get_Size(inputField);
     }
 
     public void enterCode(){
@@ -411,8 +410,7 @@ public class BasePage extends BaseClass{
     private final By links = By.tagName("a");
 
     public int getLinkCount() {
-        List<WebElement> elements = wait_for_presence_list(links);
-        return elements.size();
+        return get_Size(links);
     }
 
     /**
@@ -825,10 +823,7 @@ public class BasePage extends BaseClass{
     }
 
     public int getProductsCount() {
-        List<WebElement> elements = driver.findElements(allProducts);
-        return elements.size();
-
-        //return get_Size(allProducts);
+        return get_Size(allProducts);
     }
 
     public void clickProduct(String product){
