@@ -14,6 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -931,5 +932,47 @@ public class BasePage extends BaseClass{
     }
     public By getProductPriceLocator() {
         return product_Price;
+    }
+
+    /**
+     * Day 23
+    */
+    private final By redirectionBtn = By.xpath("//a[normalize-space()='Start Redirection chain']");
+
+    private final By goBackBtn = By.xpath("//a[normalize-space()='Go Back']");
+
+    private final By lastPageText = By.xpath("//p[text()='Welcome to the Last Page']");
+
+    public void clickRedirectionBtn(){
+        click_Element(redirectionBtn);
+    }
+
+    public void clickGoBackBtn(){
+        click_Element(goBackBtn);
+    }
+
+    public String getLastPageText(){
+        return get_Text(lastPageText);
+    }
+
+    public void verifyTextOnEachRedirection(){
+        String redirectText = "";
+
+        String[] expectedTexts = {
+                "Welcome to Second Page",
+                "Welcome to Third Page",
+                "Welcome to Fourth Page",
+                "Welcome to Fifth Page",
+                "Welcome to Sixth Page"
+        };
+
+        for (String expectedText : expectedTexts) {
+            WebElement pageText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='" + expectedText + "']")));
+            redirectText = pageText.getText();
+
+            System.out.println(redirectText);
+
+            Assert.assertEquals(expectedText, redirectText);
+        }
     }
 }

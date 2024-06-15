@@ -1,91 +1,72 @@
-2024-06-14 00:00:00.960 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:00:06.894 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:00:19.088 [main] INFO  tests.Day21 - Order successfully submitted
-2024-06-14 00:00:19.095 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:01:12.070 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:01:16.996 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:01:25.259 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:01:49.993 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:22:34.030 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:22:37.865 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:22:45.716 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:23:03.799 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:26:52.178 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:26:56.933 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:27:04.105 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:27:25.701 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:28:24.791 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:28:28.771 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:28:35.363 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:28:51.400 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:29:10.647 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:29:14.585 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:29:21.588 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:29:46.262 [main] INFO  tests.Day21 - Order successfully submitted
-2024-06-14 00:29:46.264 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:31:18.637 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:31:23.578 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:31:30.778 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:31:53.161 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:32:40.620 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:32:46.319 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:32:54.153 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:33:23.592 [main] INFO  tests.Day21 - Order successfully submitted
-2024-06-14 00:33:23.594 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:34:56.494 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:35:00.526 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:35:07.950 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:35:46.163 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:36:22.510 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:36:26.329 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:36:34.793 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:37:03.733 [main] INFO  tests.Day21 - Order successfully submitted
-2024-06-14 00:37:03.734 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 00:48:18.158 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 00:48:22.172 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 00:48:29.688 [main] INFO  tests.Day21 - Account created with valid info
-2024-06-14 00:48:53.121 [main] INFO  tests.Day21 - Order successfully submitted
-2024-06-14 00:48:53.123 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 01:04:48.405 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 01:04:52.587 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 01:04:52.796 [main] INFO  tests.Day222 - Sort the Product price from low to high
-2024-06-14 01:04:52.803 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 01:08:39.372 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 01:08:43.620 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 01:08:43.802 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 01:08:43.808 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 19:38:33.011 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 19:39:20.923 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 19:39:27.126 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 19:39:27.132 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 19:56:35.205 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 19:56:48.588 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 19:56:56.648 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 19:56:56.654 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 21:52:50.519 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 21:52:56.343 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 21:53:01.172 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 21:56:30.054 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 21:56:37.726 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 21:56:44.149 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 21:56:44.156 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 22:03:23.969 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 22:03:32.554 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 22:03:38.845 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 22:03:38.850 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 22:29:14.682 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 22:29:20.273 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 22:29:24.199 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 22:29:24.205 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 22:31:31.820 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 22:31:36.830 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 22:31:41.568 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 22:31:41.574 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 22:37:43.343 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 22:37:48.843 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 22:37:52.977 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 22:37:52.986 [main] INFO  base.BaseClass - Browser quit successfully
-2024-06-14 22:39:52.566 [main] INFO  base.BaseClass - Browser launched successfully
-2024-06-14 22:39:57.948 [main] INFO  base.BaseClass - Website open successfully
-2024-06-14 22:40:02.478 [main] INFO  tests.Day22 - Sort the Product price from low to high
-2024-06-14 22:40:02.484 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:09:24.558 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:09:25.384 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:09:33.375 [main] INFO  tests.Day23 - Redirection chain of pages and verify GO Back button
+2024-06-15 11:09:33.380 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:11:13.402 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:11:14.490 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:11:23.692 [main] INFO  tests.Day23 - Redirection chain of pages and verify GO Back button
+2024-06-15 11:11:23.697 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:47:00.614 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:47:01.570 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:47:22.017 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:48:48.065 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:48:49.121 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:49:07.607 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:49:34.398 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:49:36.188 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:49:52.171 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:50:38.271 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:50:39.238 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:50:48.881 [main] INFO  tests.Day23 - Redirection chain of pages and verify GO Back button
+2024-06-15 11:50:48.881 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:51:33.703 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:51:35.481 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:51:52.937 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:52:26.766 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:52:27.714 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:52:37.502 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:52:38.810 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:52:59.450 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:53:49.168 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:53:50.879 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:54:01.261 [main] INFO  tests.Day23 - Redirection chain of pages and verify GO Back button
+2024-06-15 11:54:01.267 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:57:52.749 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:57:55.817 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:58:11.586 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 11:58:56.813 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 11:58:59.159 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 11:59:14.818 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:00:13.270 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:00:19.629 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:00:36.221 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:00:45.048 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:00:47.554 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:00:56.055 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:00:58.370 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:01:11.420 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:01:12.856 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:01:28.703 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:01:30.097 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:01:51.227 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:02:40.897 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:02:43.179 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:03:00.720 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:03:13.131 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:03:19.212 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:04:17.871 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:04:21.959 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:08:03.263 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:08:05.214 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:08:21.752 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:09:50.117 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:09:51.142 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:10:11.753 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:11:12.258 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:11:13.812 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:11:24.139 [main] INFO  tests.Day23 - Redirection chain of pages and verify GO Back button
+2024-06-15 12:11:24.146 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-15 12:14:23.165 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-15 12:14:24.856 [main] INFO  base.BaseClass - Website open successfully
+2024-06-15 12:14:34.632 [main] INFO  tests.Day23 - Redirection chain of pages and verify GO Back button
+2024-06-15 12:14:34.638 [main] INFO  base.BaseClass - Browser quit successfully

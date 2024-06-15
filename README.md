@@ -43,3 +43,5 @@ Day20: Create an automation script that fetch and verify text from QR code.
 Day21: Create an automation script that fetch and verify the product cart checkout flow.
 
 Day22: Create an automation script that fetch and verify the product price and sort it from low to high.
+
+Day 23: Create an automation script that test Redirection chain of pages and verify 'GO BACK' button.
