@@ -14,7 +14,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -1014,5 +1013,56 @@ public class BasePage extends BaseClass{
 
     public void resetFilter() {
         click_Element_Js(clearAllBtn);
+    }
+
+    /**
+     * Day 25
+    */
+    private final By currentYearPopulation = By.xpath("//span[@rel='current_population']");
+
+    private final By birth_Today = By.xpath("//span[@rel='births_today']");
+    private final By death_Today = By.xpath("//span[@rel='dth1s_today']");
+    private final By growth_Today = By.xpath("//span[@rel='absolute_growth']");
+
+    private final By birth_Year = By.xpath("//span[@rel='births_this_year']");
+    private final By death_Year = By.xpath("//span[@rel='dth1s_this_year']");
+    private final By growth_Year = By.xpath("//span[@rel='absolute_growth_year']");
+
+    public void getPopulationData(By locator){
+        List<WebElement> elements = wait_for_presence_list(locator);
+        for (WebElement e : elements) {
+            System.out.println(e.getText());
+        }
+    }
+
+    public void getCurrentYearPopulation(){
+        System.out.print("Current World Population: ");
+        getPopulationData(currentYearPopulation);
+    }
+
+    public void getBirthToday(){
+        System.out.print("Birth Today: ");
+        getPopulationData(birth_Today);
+    }
+    public void getDeathToday(){
+        System.out.print("Death Today: ");
+        getPopulationData(death_Today);
+    }
+    public void getGrowthToday(){
+        System.out.print("Growth Today: ");
+        getPopulationData(growth_Today);
+    }
+
+    public void getBirthThisYear(){
+        System.out.print("Birth This Year: ");
+        getPopulationData(birth_Year);
+    }
+    public void getDeathThisYear(){
+        System.out.print("Death This Year: ");
+        getPopulationData(death_Year);
+    }
+    public void getGrowthThisYear(){
+        System.out.print("Growth This Year: ");
+        getPopulationData(growth_Year);
     }
 }

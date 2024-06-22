@@ -22,6 +22,7 @@ public enum EndPoint {
     DAY20("/apps/qr-code-generator/"),
     DAY23("/apps/redirect/"),
     DAY24("/commerce/tablets"),
+    DAY25("/world-population/"),
     ;
 
     public final String url;
