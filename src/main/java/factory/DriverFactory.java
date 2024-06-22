@@ -34,6 +34,7 @@ public class DriverFactory {
 
                 options.setExperimentalOption("useAutomationExtension", false);
                 options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+                options.addArguments("--disable-notifications");
 
                 prefs.put("download.default_directory", new ConfigLoader().initializeProperty().getProperty("downloadFilePath"));
                 prefs.put("profile.default_content_settings.popups", 0);
