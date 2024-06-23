@@ -4,3 +4,23 @@
 2024-06-23 00:11:49.994 [main] INFO  base.BaseClass - Website open successfully
 2024-06-23 00:12:04.017 [main] INFO  tests.Day25 - Count current world population data
 2024-06-23 00:12:04.029 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 12:31:48.163 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 12:31:51.840 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 12:31:53.104 [main] INFO  tests.Day26 - Fetch values from Graph
+2024-06-23 12:31:53.111 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 12:37:29.785 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 12:37:34.839 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 12:37:36.063 [main] INFO  tests.Day26 - Fetch values from Graph
+2024-06-23 12:37:36.071 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 12:50:17.720 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 12:50:21.198 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 12:50:49.901 [main] INFO  tests.Day26 - Fetch values from Graph
+2024-06-23 12:50:49.913 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 13:01:39.046 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 13:01:42.847 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 13:02:11.516 [main] INFO  tests.Day26 - Fetch values from Graph
+2024-06-23 13:02:11.522 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 13:05:02.572 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 13:05:06.834 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 13:05:35.597 [main] INFO  tests.Day26 - Fetch values from Graph
+2024-06-23 13:05:35.607 [main] INFO  base.BaseClass - Browser quit successfully

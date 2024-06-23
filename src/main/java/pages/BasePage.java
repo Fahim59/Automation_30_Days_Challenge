@@ -329,7 +329,7 @@ public class BasePage extends BaseClass{
     private final By downloadBtn = By.xpath("//a[@type='button']");
 
     public void clickDownloadBtn() throws InterruptedException {
-        Scroll_Down();
+        Scroll_Down(300);
         click_Element(downloadBtn);
     }
 
@@ -1064,5 +1064,20 @@ public class BasePage extends BaseClass{
     public void getGrowthThisYear(){
         System.out.print("Growth This Year: ");
         getPopulationData(growth_Year);
+    }
+
+    /**
+     * Day 26
+    */
+    private final By graphItem = By.xpath("//*[name()='svg']/*[name()='g']/*[name()='g']/*[name()='rect']");
+
+    private final By graphText = By.xpath("//*[name()='svg']//*[name()='g'][12]/*[name()='text']");
+
+    public By getGraphItemsLocator() {
+        return graphItem;
+    }
+
+    public String getGraphText() {
+        return get_Text(graphText);
     }
 }

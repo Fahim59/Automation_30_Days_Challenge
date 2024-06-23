@@ -13,16 +13,21 @@ public enum EndPoint {
     DAY9("/shadowdom"),
     DAY10("/FileDownload.html"),
     DAY11("/apps/tags-input-box/"),
+    DAY12(""),
     DAY13("/blog/tutorial/selenium-tutorial/selenium-cheat-sheet/"),
+    DAY14(""),
     DAY15("/meherpavan/form2/index.html?1537702596407"),
     DAY16("/apps/mouse-hover/"),
     DAY17("/search"),
     DAY18("/apps/covered/#"),
     DAY19("/apps/rating/"),
     DAY20("/apps/qr-code-generator/"),
+    DAY21(""),
+    DAY22(""),
     DAY23("/apps/redirect/"),
     DAY24("/commerce/tablets"),
     DAY25("/world-population/"),
+    DAY26(""),
     ;
 
     public final String url;
