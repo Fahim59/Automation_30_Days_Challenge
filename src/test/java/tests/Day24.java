@@ -20,7 +20,7 @@ public class Day24 extends BaseClass {
     @Test(description = "Single Selection - Deals (New)", priority = 1)
     public void single_Selection_Deals() throws InterruptedException {
 
-        Scroll_Down();
+        Scroll_Down(300);
         SmallWait(2000);
 
         basePage.selectFilter("Deals", "New");

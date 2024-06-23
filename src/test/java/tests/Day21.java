@@ -76,7 +76,7 @@ public class Day21 extends BaseClass {
 
         basePage.closeAd();
 
-        Scroll_Down();
+        Scroll_Down(300);
 
         basePage.clickProduct(details.getJSONObject("day21").getString("productName"));
 
