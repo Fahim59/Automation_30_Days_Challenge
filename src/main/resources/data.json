@@ -54,5 +54,9 @@
   },
   "day23": {
     "text": "Welcome to the Last Page"
+  },
+  "day27": {
+    "uid": "standard_user",
+    "pass": "secret_sauce"
   }
 }

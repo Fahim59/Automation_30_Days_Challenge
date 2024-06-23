@@ -24,3 +24,89 @@
 2024-06-23 13:05:06.834 [main] INFO  base.BaseClass - Website open successfully
 2024-06-23 13:05:35.597 [main] INFO  tests.Day26 - Fetch values from Graph
 2024-06-23 13:05:35.607 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 19:47:02.139 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 19:47:03.547 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 19:47:03.779 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 19:47:03.784 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 19:58:18.078 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 19:58:19.531 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 19:58:20.255 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 19:58:20.266 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:06:58.627 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:07:00.069 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:07:00.635 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:07:00.643 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:12:12.179 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:12:13.707 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:12:14.203 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:12:14.210 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:12:29.658 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:12:31.036 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:12:31.513 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:12:31.521 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:12:47.989 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:12:49.434 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:12:49.890 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:12:49.897 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:14:40.237 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:14:41.763 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:14:42.298 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:14:42.305 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:20:29.027 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:20:30.344 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:20:31.198 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:20:31.204 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:20:51.673 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:20:53.140 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:20:54.299 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:20:54.304 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:21:09.532 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:21:10.923 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:21:12.111 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:21:12.116 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:21:36.745 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:21:38.132 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:21:39.806 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:21:39.812 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:21:51.782 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:21:53.247 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:21:54.881 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:21:54.888 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:23:26.965 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:23:28.250 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:23:30.369 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:25:49.897 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:25:51.264 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:25:53.140 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:25:53.152 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:31:44.918 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:31:46.310 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:31:48.222 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:31:48.229 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:45:42.675 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:45:44.226 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:45:46.028 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:45:46.033 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:46:36.287 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:46:37.646 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:46:42.144 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:46:53.811 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:46:55.246 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:47:14.934 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:47:16.409 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:47:18.583 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:47:18.595 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:48:03.467 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:48:04.865 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:48:06.689 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:48:06.693 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:49:52.057 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:49:53.442 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 20:49:55.129 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 20:49:55.135 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-23 20:51:22.064 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 20:51:23.483 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 21:04:41.519 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-23 21:04:42.869 [main] INFO  base.BaseClass - Website open successfully
+2024-06-23 21:04:44.868 [main] INFO  tests.Day27 - Click on the Add to Cart button of the highest and lowest price product
+2024-06-23 21:04:44.874 [main] INFO  base.BaseClass - Browser quit successfully

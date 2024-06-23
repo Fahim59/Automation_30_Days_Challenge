@@ -44,10 +44,12 @@ Day21: Create an automation script that fetch and verify the product cart checko
 
 Day22: Create an automation script that fetch and verify the product price and sort it from low to high.
 
-Day 23: Create an automation script that test Redirection chain of pages and verify 'GO BACK' button.
+Day23: Create an automation script that test Redirection chain of pages and verify 'GO BACK' button.
 
-Day 24: You need to create a single function that handles filter category functionality with all the test scenarios mentioned below with error handling.
+Day24: You need to create a single function that handles filter category functionality with all the test scenarios mentioned below with error handling.
 
-Day 25: Create an automation script that keep getting the count of: Current World Population, Today (Births, Deaths and Population growth) and This Year (Births, Deaths and Population growth).
+Day25: Create an automation script that keep getting the count of: Current World Population, Today (Births, Deaths and Population growth) and This Year (Births, Deaths and Population growth)
 
-Day 26: Create an automation script that fetch values from the graph (EMI Payment/Year).
+Day26: Create an automation script that fetch value from the graph (EMI Payment/Year).
+
+Day27: Create an automation script that click on the Add to Cart button of the highest and lowest price product.

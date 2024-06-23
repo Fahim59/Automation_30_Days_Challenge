@@ -1080,4 +1080,79 @@ public class BasePage extends BaseClass{
     public String getGraphText() {
         return get_Text(graphText);
     }
+
+    /**
+     * Day 27
+    */
+    private final By userID = By.xpath("//input[@id='user-name']");
+    private final By password = By.xpath("//input[@id='password']");
+    private final By loginBtn = By.xpath("//input[@id='login-button']");
+
+    private final By products = By.xpath("//div[@class='inventory_item_name ']");
+    private final By prices = By.xpath("//div[@class='inventory_item_price']");
+
+    public BasePage enter_UserID(String uid){
+        write_Send_Keys(userID, uid);
+        return this;
+    }
+    public BasePage enter_Password(String pass){
+        write_Send_Keys(password, pass);
+        return this;
+    }
+    public BasePage clickLoginBtn(){
+        click_Element(loginBtn);
+        return this;
+    }
+
+    public BasePage login(String uid, String pass){
+        return enter_UserID(uid).enter_Password(pass).clickLoginBtn();
+    }
+
+    public void clickHighestPriceProduct(){
+        double highestPrice = 0;
+
+        for(int i = 0; i < get_Size(products); i++){
+            String priceText = driver.findElements(prices).get(i).getText();
+            double price = Double.parseDouble(priceText.replace("$", ""));
+
+            if (price > highestPrice) {
+                highestPrice = price;
+            }
+        }
+
+        driver.findElement(By.xpath("//div[normalize-space()='$"+highestPrice+"']/following-sibling::button[text()='Add to cart']")).click();
+
+        //================= Another Approach =================//
+
+//        List<WebElement> elements = driver.findElements(prices);
+//        double maxPrice = elements.stream().
+//                mapToDouble(e -> Double.parseDouble(e.getText().trim().replace("$", ""))).
+//                max().getAsDouble();
+//
+//        driver.findElement(By.xpath("//div[normalize-space()='$"+maxPrice+"']/following-sibling::button[text()='Add to cart']")).click();
+    }
+
+    public void clickLowestPriceProduct(){
+        double lowestPrice = Double.MAX_VALUE;
+
+        for(int i = 0; i < get_Size(products); i++){
+            String priceText = driver.findElements(prices).get(i).getText();
+            double price = Double.parseDouble(priceText.replace("$", ""));
+
+            if (price < lowestPrice) {
+                lowestPrice = price;
+            }
+        }
+
+        driver.findElement(By.xpath("//div[normalize-space()='$"+lowestPrice+"']/following-sibling::button[text()='Add to cart']")).click();
+
+        //================= Another Approach =================//
+
+//        List<WebElement> elements = driver.findElements(prices);
+//        double minPrice = elements.stream().
+//                mapToDouble(e -> Double.parseDouble(e.getText().trim().replace("$", ""))).
+//                min().getAsDouble();
+//
+//        driver.findElement(By.xpath("//div[normalize-space()='$"+minPrice+"']/following-sibling::button[text()='Add to cart']")).click();
+    }
 }
