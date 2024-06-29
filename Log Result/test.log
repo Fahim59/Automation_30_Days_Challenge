@@ -10,3 +10,7 @@
 2024-06-29 12:54:03.668 [main] INFO  base.BaseClass - Website open successfully
 2024-06-29 12:54:10.883 [main] INFO  tests.Day28 - Fetch the count of holidays and weekends till the given month and validate it
 2024-06-29 12:54:10.888 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 17:52:13.769 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 17:52:17.250 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 17:52:24.613 [main] INFO  tests.Day28 - Fetch the count of holidays and weekends till the given month and validate it
+2024-06-29 17:52:24.622 [main] INFO  base.BaseClass - Browser quit successfully
