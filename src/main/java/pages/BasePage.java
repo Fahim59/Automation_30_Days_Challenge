@@ -1155,4 +1155,54 @@ public class BasePage extends BaseClass{
 //
 //        driver.findElement(By.xpath("//div[normalize-space()='$"+minPrice+"']/following-sibling::button[text()='Add to cart']")).click();
     }
+
+    /**
+     * Day 28
+    */
+    private final By datePicker = By.cssSelector(".dateText");
+
+    private final By monthElementField = By.cssSelector("div[class='DayNavigator__CalendarHeader-qj8jdz-1 fxvMrr'] div:nth-child(2)");
+    private final By weekendElementField = By.cssSelector("span.DayTiles__CalendarDaysSpan-sc-1xum02u-1.bwoYtA");
+
+    private final By nextMonthIcon = By.cssSelector("div[class='DayNavigator__CalendarHeader-qj8jdz-1 fxvMrr'] div:nth-child(3)");
+
+    public void clickDatePicker(){
+        click_Element(datePicker);
+    }
+
+    public void fetchHolidaysAndWeekends(String givenMonth){
+        while(true){
+            WebElement monthElement = wait_for_visibility(monthElementField);
+            String currentMonth = monthElement.getText();
+            System.out.println("Month is: " +currentMonth);
+
+            if(!currentMonth.contains("Holiday")){
+                System.out.println("0 Holiday");
+            }
+
+            if (currentMonth.contains(givenMonth)) {
+                List<WebElement> weekendElements = wait_for_presence_list(weekendElementField);
+
+                List<Integer> weekends = new ArrayList<>();
+                for (WebElement element : weekendElements) {
+                    String dayText = element.getText();
+                    int day = Integer.parseInt(dayText);
+                    weekends.add(day);
+                }
+                System.out.println("Weekend dates of the month "+givenMonth+  " are " + weekends);
+
+                break;
+            }
+            else {
+                click_Element(nextMonthIcon);
+
+                try {
+                    Thread.sleep(1000);
+                }
+                catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }

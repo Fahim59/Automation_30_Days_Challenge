@@ -29,6 +29,7 @@ public enum EndPoint {
     DAY25("/world-population/"),
     DAY26(""),
     DAY27(""),
+    DAY28(""),
     ;
 
     public final String url;
