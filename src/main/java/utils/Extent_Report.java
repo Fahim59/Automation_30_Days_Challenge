@@ -18,7 +18,7 @@ public class Extent_Report {
             ExtentSparkReporter html = new ExtentSparkReporter("Reports/Html Reports/Extent.html");
 
             html.config().setDocumentTitle("Html Report");
-            html.config().setReportName("Selenium 50 Days Challenge");
+            html.config().setReportName("Selenium 30 Days Challenge");
             html.config().setTheme(Theme.DARK);
             extent = new ExtentReports();
             extent.attachReporter(html);
