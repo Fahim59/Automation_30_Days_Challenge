@@ -55,3 +55,8 @@ Day26: Create an automation script that fetch value from the graph (EMI Payment/
 Day27: Create an automation script that click on the Add to Cart button of the highest and lowest price product.
 
 Day28: Create an automation script that fetch the count of holidays and weekends till the given month and validate it.
+
+Day29: Create an automation script to complete the below three test cases -
+       Test Case 1: Drag all the capitals to the respective country section.       
+       Test Case 2: Drag all the capitals to the wrong country section
+       Test Case 3: Drag some capitals to the respective country and some wrong country section
