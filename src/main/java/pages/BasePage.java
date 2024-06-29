@@ -1205,4 +1205,65 @@ public class BasePage extends BaseClass{
             }
         }
     }
+
+    /**
+     * Day 29
+    */
+    private final By OsloField = By.cssSelector("#box1");
+    private final By StockholmField = By.cssSelector("#box2");
+    private final By WashingtonField = By.cssSelector("#box3");
+    private final By CopenhagenField = By.cssSelector("#box4");
+    private final By SeoulField = By.cssSelector("#box5");
+    private final By RomeField = By.cssSelector("#box6");
+    private final By MadridField = By.cssSelector("#box7");
+
+    private final By NorwayField = By.cssSelector("#box101");
+    private final By SwedenField = By.cssSelector("#box102");
+    private final By United_StatesField = By.cssSelector("#box103");
+    private final By DenmarkField = By.cssSelector("#box104");
+    private final By South_KoreaField = By.cssSelector("#box105");
+    private final By ItalyField = By.cssSelector("#box106");
+    private final By SpainField = By.cssSelector("#box107");
+
+    private final By CapitalField = By.cssSelector("#capitals");
+
+    public void moveCapitalToLeftSection() {
+        drag_And_Drop(NorwayField,CapitalField);
+        drag_And_Drop(SwedenField,CapitalField);
+        drag_And_Drop(United_StatesField,CapitalField);
+        drag_And_Drop(DenmarkField,CapitalField);
+        drag_And_Drop(South_KoreaField,CapitalField);
+        drag_And_Drop(ItalyField,CapitalField);
+        drag_And_Drop(SpainField,CapitalField);
+    }
+
+    public void dragCapitalToRespectiveCountry() {
+        drag_And_Drop(OsloField, NorwayField);
+        drag_And_Drop(StockholmField, SwedenField);
+        drag_And_Drop(WashingtonField, United_StatesField);
+        drag_And_Drop(CopenhagenField, DenmarkField);
+        drag_And_Drop(SeoulField, South_KoreaField);
+        drag_And_Drop(RomeField, ItalyField);
+        drag_And_Drop(MadridField, SpainField);
+    }
+
+    public void dragCapitalToWrongCountry() {
+        drag_And_Drop(OsloField, South_KoreaField);
+        drag_And_Drop(StockholmField, SpainField);
+        drag_And_Drop(WashingtonField, ItalyField);
+        drag_And_Drop(CopenhagenField, SwedenField);
+        drag_And_Drop(SeoulField, NorwayField);
+        drag_And_Drop(RomeField, United_StatesField);
+        drag_And_Drop(MadridField, DenmarkField);
+    }
+
+    public void dragCapitalToRespective_WrongCountry() {
+        drag_And_Drop(OsloField, SwedenField);
+        drag_And_Drop(StockholmField, NorwayField);
+        drag_And_Drop(WashingtonField, United_StatesField);
+        drag_And_Drop(CopenhagenField, ItalyField);
+        drag_And_Drop(SeoulField, South_KoreaField);
+        drag_And_Drop(RomeField, SpainField);
+        drag_And_Drop(MadridField, DenmarkField);
+    }
 }

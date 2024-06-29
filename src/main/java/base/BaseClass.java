@@ -37,7 +37,7 @@ public class BaseClass {
 
     @BeforeClass
     public static void open_website(){
-        Open_Website(EndPoint.DAY28.url);
+        Open_Website(EndPoint.DAY29.url);
 
         logger.info("Website open successfully");
     }
@@ -104,6 +104,15 @@ public class BaseClass {
         actions.moveToElement(element).perform();
 
         click_Element(locator_click);
+    }
+
+    public void drag_And_Drop(By dragable, By dropable ){
+        Actions actions = new Actions(driver);
+
+        WebElement dragElement = wait_for_visibility(dragable);
+        WebElement dropElement = wait_for_visibility(dropable);
+
+        actions.dragAndDrop(dragElement, dropElement).build().perform();
     }
 
     public void write_Send_Keys(By locator, String txt) {

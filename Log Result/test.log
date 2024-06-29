@@ -14,3 +14,36 @@
 2024-06-29 17:52:17.250 [main] INFO  base.BaseClass - Website open successfully
 2024-06-29 17:52:24.613 [main] INFO  tests.Day28 - Fetch the count of holidays and weekends till the given month and validate it
 2024-06-29 17:52:24.622 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:25:16.074 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:25:20.324 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:25:20.671 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:30:34.241 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:30:38.202 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:30:40.345 [main] INFO  tests.Day29 - Fetch the count of holidays and weekends till the given month and validate it
+2024-06-29 18:30:40.345 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:39:35.957 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:39:42.365 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:39:49.781 [main] INFO  tests.Day29 - Fetch the count of holidays and weekends till the given month and validate it
+2024-06-29 18:39:49.788 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:42:52.613 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:42:55.958 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:43:00.325 [main] INFO  tests.Day29 - Fetch the count of holidays and weekends till the given month and validate it
+2024-06-29 18:43:00.332 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:48:40.768 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:48:44.831 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:48:49.043 [main] INFO  tests.Day29 - Drag capitals to respective countries
+2024-06-29 18:48:53.036 [main] INFO  tests.Day29 - Drag capitals to wrong countries
+2024-06-29 18:48:57.064 [main] INFO  tests.Day29 - Drag capitals to respective and wrong countries
+2024-06-29 18:48:57.066 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:49:37.821 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:49:41.718 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:49:46.218 [main] INFO  tests.Day29 - Drag capitals to respective countries
+2024-06-29 18:49:50.420 [main] INFO  tests.Day29 - Drag capitals to wrong countries
+2024-06-29 18:49:54.415 [main] INFO  tests.Day29 - Drag capitals to respective and wrong countries
+2024-06-29 18:49:54.417 [main] INFO  base.BaseClass - Browser quit successfully
+2024-06-29 18:50:16.296 [main] INFO  base.BaseClass - Browser launched successfully
+2024-06-29 18:50:19.831 [main] INFO  base.BaseClass - Website open successfully
+2024-06-29 18:50:24.061 [main] INFO  tests.Day29 - Drag capitals to respective countries
+2024-06-29 18:50:27.970 [main] INFO  tests.Day29 - Drag capitals to wrong countries
+2024-06-29 18:50:31.949 [main] INFO  tests.Day29 - Drag capitals to respective and wrong countries
+2024-06-29 18:50:31.951 [main] INFO  base.BaseClass - Browser quit successfully
