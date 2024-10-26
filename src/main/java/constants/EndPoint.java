@@ -31,6 +31,7 @@ public enum EndPoint {
     DAY27(""),
     DAY28(""),
     DAY29("/scripts/drag-drop-custom/demo-drag-drop-3.html"),
+    DAY30("/login"),
     ;
 
     public final String url;

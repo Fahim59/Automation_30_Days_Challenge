@@ -18,11 +18,12 @@ import org.testng.Assert;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.*;
 import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.awt.datatransfer.*;
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -1265,5 +1266,81 @@ public class BasePage extends BaseClass{
         drag_And_Drop(SeoulField, South_KoreaField);
         drag_And_Drop(RomeField, SpainField);
         drag_And_Drop(MadridField, DenmarkField);
+    }
+
+    /**
+     * Day 30
+    */
+    public void saveCookie(){
+        File file = new File("cookies.data");
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+            Set<Cookie> cookies = driver.manage().getCookies();
+            for (Cookie cookie : cookies) {
+                writer.write((cookie.getName() + ";" + cookie.getValue() + ";" + cookie.getDomain() + ";"
+                        + cookie.getPath() + ";" + cookie.getExpiry() + ";" + cookie.isSecure()));
+                writer.newLine();
+            }
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public void injectCookie(){
+        File file = new File("cookies.data");
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] token = line.split(";");
+                String name = token[0];
+                String value = token[1];
+                String domain = token[2];
+                String path = token[3];
+                Date expiry = null;
+                if (!token[4].equals("null")) {
+                    SimpleDateFormat formatter = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+                    expiry = formatter.parse(token[4]);
+                }
+                boolean isSecure = Boolean.parseBoolean(token[5]);
+
+                Cookie cookie = new Cookie(name, value, domain, path, expiry, isSecure);
+                driver.manage().addCookie(cookie);
+            }
+        }
+        catch (IOException | ParseException e) {
+            e.printStackTrace();
+        }
+
+        driver.navigate().refresh();
+    }
+
+    private final By userName_Field = By.xpath("//input[@name='login:usernameDecorate:username']");
+    private final By password_Field = By.xpath("//input[@name='login:passwordDecorate:password']");
+    private final By login_Btn = By.xpath("//input[@name='login:login']");
+
+    private final By personIcon = By.cssSelector("a[aria-label='People & Organizations'] svg");
+
+    public BasePage enterUserName(String userName){
+        write_Send_Keys(userName_Field, userName);
+        return this;
+    }
+    public BasePage enter_Pass(String password){
+        write_Send_Keys(password_Field, password);
+        return this;
+    }
+    public BasePage click_LoginBtn(){
+        click_Element(login_Btn);
+        return this;
+    }
+
+    public BasePage userLogin(String userName, String password){
+        return enterUserName(userName).enter_Pass(password).click_LoginBtn();
+    }
+
+    public void clickPersonIcon(){
+        click_Element(personIcon);
+    }
+
+    public void test(){
+        driver.manage().deleteAllCookies();
     }
 }

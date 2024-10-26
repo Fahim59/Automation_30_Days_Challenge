@@ -7,7 +7,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="Selenium 50 Days Challenge">
         <classes>
-            <class name="tests.Day29"/>
+            <class name="tests.Day30"/>
         </classes>
     </test>
 </suite>
